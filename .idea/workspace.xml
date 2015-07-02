@@ -2,37 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4a29e91-7c40-4a6c-9477-f5465c50dc69" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stream_twitter/templates/stream_twitter/_footer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pytutorial/fixtures/dj_data.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pytutorial/management/commands/dj_deploy.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stream_twitter/templates/registration/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stream_twitter/templates/registration/logout.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pytutorial/management/commands/tear_down.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/profile_pictures/Einstein_patentoffice.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/profile_pictures/albert.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/profile_pictures/albert1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/profile_pictures/albert1_6QY1aPb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/profile_pictures/albert_RUZNi3E.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/profile_pictures/edison.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/profile_pictures/marie.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/profile_pictures/pika.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/profile_pictures/testla.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stream_twitter/templates/admin/login.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stream_twitter/templates/stream_twitter/_base.html" afterPath="$PROJECT_DIR$/stream_twitter/templates/stream_twitter/_base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stream_twitter/templates/stream_twitter/_nav.html" afterPath="$PROJECT_DIR$/stream_twitter/templates/stream_twitter/_nav.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stream_twitter/templates/stream_twitter/_tweet.html" afterPath="$PROJECT_DIR$/stream_twitter/templates/stream_twitter/_tweet.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stream_twitter/templates/stream_twitter/_tweetbox.html" afterPath="$PROJECT_DIR$/stream_twitter/templates/stream_twitter/_tweetbox.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stream_twitter/templates/stream_twitter/_user.html" afterPath="$PROJECT_DIR$/stream_twitter/templates/stream_twitter/_user.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stream_twitter/admin.py" afterPath="$PROJECT_DIR$/stream_twitter/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stream_twitter/templates/stream_twitter/follow_form.html" afterPath="$PROJECT_DIR$/stream_twitter/templates/stream_twitter/follow_form.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stream_twitter/templates/stream_twitter/home.html" afterPath="$PROJECT_DIR$/stream_twitter/templates/stream_twitter/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pytutorial/settings.py" afterPath="$PROJECT_DIR$/pytutorial/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stream_twitter/static/css/stream_twitter.css" afterPath="$PROJECT_DIR$/stream_twitter/static/css/stream_twitter.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stream_twitter/static/css/style.css" afterPath="$PROJECT_DIR$/stream_twitter/static/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stream_twitter/templates/stream_twitter/timeline.html" afterPath="$PROJECT_DIR$/stream_twitter/templates/stream_twitter/timeline.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pytutorial/urls.py" afterPath="$PROJECT_DIR$/pytutorial/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stream_twitter/templates/stream_twitter/user.html" afterPath="$PROJECT_DIR$/stream_twitter/templates/stream_twitter/user.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stream_twitter/views.py" afterPath="$PROJECT_DIR$/stream_twitter/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pytutorial/fixtures/dj_data.json" afterPath="$PROJECT_DIR$/pytutorial/fixtures/dj_data.json" />
     </list>
     <ignored path="django_twitter.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -144,8 +114,8 @@
       <file leaf-file-name="dj_data.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pytutorial/fixtures/dj_data.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.90522873">
-              <caret line="525" column="5" selection-start-line="525" selection-start-column="5" selection-end-line="525" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.5555556">
+              <caret line="466" column="102" selection-start-line="466" selection-start-column="102" selection-end-line="466" selection-end-column="102" />
               <folding />
             </state>
           </provider>
@@ -186,7 +156,6 @@
         <option value="$PROJECT_DIR$/pytutorial/fixtures/initial_data.json" />
         <option value="$PROJECT_DIR$/pytutorial/fixtures/initial_data_pp.json" />
         <option value="$PROJECT_DIR$/pytutorial/management/commands/dj_deploy.py" />
-        <option value="$PROJECT_DIR$/pytutorial/fixtures/dj_data.json" />
         <option value="$PROJECT_DIR$/stream_twitter/static/css/style.css" />
         <option value="$PROJECT_DIR$/stream_twitter/templates/stream_twitter/_user.html" />
         <option value="$PROJECT_DIR$/stream_twitter/templates/stream_twitter/follow_form.html" />
@@ -207,6 +176,7 @@
         <option value="$PROJECT_DIR$/stream_twitter/templates/registration/logout.html" />
         <option value="$PROJECT_DIR$/pytutorial/urls.py" />
         <option value="$PROJECT_DIR$/stream_twitter/views.py" />
+        <option value="$PROJECT_DIR$/pytutorial/fixtures/dj_data.json" />
       </list>
     </option>
   </component>
@@ -286,73 +256,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="stream_twitter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stream_twitter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="django_twitter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="django_twitter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stream_twitter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="registration" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="django_twitter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="django_twitter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stream_twitter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="django_twitter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="django_twitter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stream_twitter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="migrations" />
+              <option name="myItemId" value="pytutorial" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -367,6 +271,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="pytutorial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="management" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="django_twitter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="django_twitter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pytutorial" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="management" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="commands" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -980,8 +910,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pytutorial/fixtures/dj_data.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.90522873">
-          <caret line="525" column="5" selection-start-line="525" selection-start-column="5" selection-end-line="525" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.5555556">
+          <caret line="466" column="102" selection-start-line="466" selection-start-column="102" selection-end-line="466" selection-end-column="102" />
           <folding />
         </state>
       </provider>
