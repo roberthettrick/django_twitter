@@ -1,0 +1,527 @@
+[
+    {
+        "fields": {
+            "codename": "add_logentry",
+            "content_type": 1,
+            "name": "Can add log entry"
+        },
+        "model": "auth.permission",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "codename": "change_logentry",
+            "content_type": 1,
+            "name": "Can change log entry"
+        },
+        "model": "auth.permission",
+        "pk": 2
+    },
+    {
+        "fields": {
+            "codename": "delete_logentry",
+            "content_type": 1,
+            "name": "Can delete log entry"
+        },
+        "model": "auth.permission",
+        "pk": 3
+    },
+    {
+        "fields": {
+            "codename": "add_permission",
+            "content_type": 2,
+            "name": "Can add permission"
+        },
+        "model": "auth.permission",
+        "pk": 4
+    },
+    {
+        "fields": {
+            "codename": "change_permission",
+            "content_type": 2,
+            "name": "Can change permission"
+        },
+        "model": "auth.permission",
+        "pk": 5
+    },
+    {
+        "fields": {
+            "codename": "delete_permission",
+            "content_type": 2,
+            "name": "Can delete permission"
+        },
+        "model": "auth.permission",
+        "pk": 6
+    },
+    {
+        "fields": {
+            "codename": "add_group",
+            "content_type": 3,
+            "name": "Can add group"
+        },
+        "model": "auth.permission",
+        "pk": 7
+    },
+    {
+        "fields": {
+            "codename": "change_group",
+            "content_type": 3,
+            "name": "Can change group"
+        },
+        "model": "auth.permission",
+        "pk": 8
+    },
+    {
+        "fields": {
+            "codename": "delete_group",
+            "content_type": 3,
+            "name": "Can delete group"
+        },
+        "model": "auth.permission",
+        "pk": 9
+    },
+    {
+        "fields": {
+            "codename": "add_user",
+            "content_type": 4,
+            "name": "Can add user"
+        },
+        "model": "auth.permission",
+        "pk": 10
+    },
+    {
+        "fields": {
+            "codename": "change_user",
+            "content_type": 4,
+            "name": "Can change user"
+        },
+        "model": "auth.permission",
+        "pk": 11
+    },
+    {
+        "fields": {
+            "codename": "delete_user",
+            "content_type": 4,
+            "name": "Can delete user"
+        },
+        "model": "auth.permission",
+        "pk": 12
+    },
+    {
+        "fields": {
+            "codename": "add_contenttype",
+            "content_type": 5,
+            "name": "Can add content type"
+        },
+        "model": "auth.permission",
+        "pk": 13
+    },
+    {
+        "fields": {
+            "codename": "change_contenttype",
+            "content_type": 5,
+            "name": "Can change content type"
+        },
+        "model": "auth.permission",
+        "pk": 14
+    },
+    {
+        "fields": {
+            "codename": "delete_contenttype",
+            "content_type": 5,
+            "name": "Can delete content type"
+        },
+        "model": "auth.permission",
+        "pk": 15
+    },
+    {
+        "fields": {
+            "codename": "add_session",
+            "content_type": 6,
+            "name": "Can add session"
+        },
+        "model": "auth.permission",
+        "pk": 16
+    },
+    {
+        "fields": {
+            "codename": "change_session",
+            "content_type": 6,
+            "name": "Can change session"
+        },
+        "model": "auth.permission",
+        "pk": 17
+    },
+    {
+        "fields": {
+            "codename": "delete_session",
+            "content_type": 6,
+            "name": "Can delete session"
+        },
+        "model": "auth.permission",
+        "pk": 18
+    },
+    {
+        "fields": {
+            "codename": "add_tweet",
+            "content_type": 7,
+            "name": "Can add tweet"
+        },
+        "model": "auth.permission",
+        "pk": 19
+    },
+    {
+        "fields": {
+            "codename": "change_tweet",
+            "content_type": 7,
+            "name": "Can change tweet"
+        },
+        "model": "auth.permission",
+        "pk": 20
+    },
+    {
+        "fields": {
+            "codename": "delete_tweet",
+            "content_type": 7,
+            "name": "Can delete tweet"
+        },
+        "model": "auth.permission",
+        "pk": 21
+    },
+    {
+        "fields": {
+            "codename": "add_follow",
+            "content_type": 8,
+            "name": "Can add follow"
+        },
+        "model": "auth.permission",
+        "pk": 22
+    },
+    {
+        "fields": {
+            "codename": "change_follow",
+            "content_type": 8,
+            "name": "Can change follow"
+        },
+        "model": "auth.permission",
+        "pk": 23
+    },
+    {
+        "fields": {
+            "codename": "delete_follow",
+            "content_type": 8,
+            "name": "Can delete follow"
+        },
+        "model": "auth.permission",
+        "pk": 24
+    },
+    {
+        "fields": {
+            "codename": "add_userprofile",
+            "content_type": 9,
+            "name": "Can add user profile"
+        },
+        "model": "auth.permission",
+        "pk": 25
+    },
+    {
+        "fields": {
+            "codename": "change_userprofile",
+            "content_type": 9,
+            "name": "Can change user profile"
+        },
+        "model": "auth.permission",
+        "pk": 26
+    },
+    {
+        "fields": {
+            "codename": "delete_userprofile",
+            "content_type": 9,
+            "name": "Can delete user profile"
+        },
+        "model": "auth.permission",
+        "pk": 27
+    },
+    {
+        "fields": {
+            "codename": "add_hashtag",
+            "content_type": 10,
+            "name": "Can add hashtag"
+        },
+        "model": "auth.permission",
+        "pk": 28
+    },
+    {
+        "fields": {
+            "codename": "change_hashtag",
+            "content_type": 10,
+            "name": "Can change hashtag"
+        },
+        "model": "auth.permission",
+        "pk": 29
+    },
+    {
+        "fields": {
+            "codename": "delete_hashtag",
+            "content_type": 10,
+            "name": "Can delete hashtag"
+        },
+        "model": "auth.permission",
+        "pk": 30
+    },
+    {
+        "fields": {
+            "description": "Hi, I am a Probation Officer within the National Probation Service, currently working at Strangeways.",
+            "picture": "profile_pictures/mary_meakin.jpeg",
+            "user": 1
+        },
+        "model": "stream_twitter.userprofile",
+        "pk": 1
+    },
+  {
+        "fields": {
+            "action_flag": 2,
+            "action_time": "2015-03-11T20:15:44.539Z",
+            "change_message": "Changed first_name and last_name. Added user profile \"UserProfile object\".",
+            "content_type": 4,
+            "object_id": "1",
+            "object_repr": "marymeakin",
+            "user": 1
+        },
+        "model": "admin.logentry",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "date_joined": "2014-03-11T19:50:16Z",
+            "email": "",
+            "first_name": "Mary",
+            "groups": [],
+            "is_active": true,
+            "is_staff": true,
+            "is_superuser": true,
+            "last_login": "2015-03-11T22:34:03.620Z",
+            "last_name": "Meakin",
+            "password": "pbkdf2_sha256$15000$c6AQvuGwLwho$XLaKb/lRNAnHU9Uj4H4XMgDnHZF33Lq2ONFtKqdAIXA=",
+            "user_permissions": [],
+            "username": "marymeakin"
+        },
+        "model": "auth.user",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "description": "The Magistrates Court for Greater Manchester.",
+            "picture": "profile_pictures/manchester_magistrates_court.jpeg",
+            "user": 2
+        },
+        "model": "stream_twitter.userprofile",
+        "pk": 2
+    },
+    {
+        "fields": {
+            "date_joined": "2014-03-11T19:50:16Z",
+            "email": "",
+            "first_name": "",
+            "groups": [],
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "last_login": "2015-03-11T22:34:03.620Z",
+            "last_name": "Manchester Magistrates Court",
+            "password": "pbkdf2_sha256$15000$c6AQvuGwLwho$XLaKb/lRNAnHU9Uj4H4XMgDnHZF33Lq2ONFtKqdAIXA=",
+            "user_permissions": [],
+            "username": "mcrmagistratescourt"
+        },
+        "model": "auth.user",
+        "pk": 2
+    },
+    {
+        "fields": {
+            "description": "HM Prison Manchester, aka Strangeways.",
+            "picture": "profile_pictures/Strangeways_Prison.jpg",
+            "user": 3
+        },
+        "model": "stream_twitter.userprofile",
+        "pk": 3
+    },
+    {
+        "fields": {
+            "date_joined": "2014-03-11T19:50:16Z",
+            "email": "",
+            "first_name": "",
+            "groups": [],
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "last_login": "2015-03-11T22:34:03.620Z",
+            "last_name": "HM Prison Manchester",
+            "password": "pbkdf2_sha256$15000$c6AQvuGwLwho$XLaKb/lRNAnHU9Uj4H4XMgDnHZF33Lq2ONFtKqdAIXA=",
+            "user_permissions": [],
+            "username": "strangeways"
+        },
+        "model": "auth.user",
+        "pk": 3
+    },
+    {
+        "fields": {
+            "description": "Greater Manchester Police.",
+            "picture": "profile_pictures/gmp_hq.jpg",
+            "user": 4
+        },
+        "model": "stream_twitter.userprofile",
+        "pk": 4
+    },
+    {
+        "fields": {
+            "date_joined": "2014-03-11T19:50:16Z",
+            "email": "",
+            "first_name": "",
+            "groups": [],
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "last_login": "2015-03-11T22:34:03.620Z",
+            "last_name": "Greater Manchester Police",
+            "password": "pbkdf2_sha256$15000$c6AQvuGwLwho$XLaKb/lRNAnHU9Uj4H4XMgDnHZF33Lq2ONFtKqdAIXA=",
+            "user_permissions": [],
+            "username": "gmp"
+        },
+        "model": "auth.user",
+        "pk": 4
+    },
+    {
+        "fields": {
+            "description": "We are the Crown Court for Greater Manchester.",
+            "picture": "profile_pictures/mcr_crown_court.jpeg",
+            "user": 5
+        },
+        "model": "stream_twitter.userprofile",
+        "pk": 5
+    },
+    {
+        "fields": {
+            "date_joined": "2014-03-11T19:50:16Z",
+            "email": "",
+            "first_name": "",
+            "groups": [],
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "last_login": "2015-03-11T22:34:03.620Z",
+            "last_name": "Manchester Crown Court",
+            "password": "pbkdf2_sha256$15000$c6AQvuGwLwho$XLaKb/lRNAnHU9Uj4H4XMgDnHZF33Lq2ONFtKqdAIXA=",
+            "user_permissions": [],
+            "username": "mcrcrowncourt"
+        },
+        "model": "auth.user",
+        "pk": 5
+    },
+    {
+        "fields": {
+            "description": "Crown Prosecution Service for the North West.",
+            "picture": "profile_pictures/cps.png",
+            "user": 6
+        },
+        "model": "stream_twitter.userprofile",
+        "pk": 6
+    },
+    {
+        "fields": {
+            "date_joined": "2014-03-11T19:50:16Z",
+            "email": "",
+            "first_name": "",
+            "groups": [],
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "last_login": "2015-03-11T22:34:03.620Z",
+            "last_name": "North West CPS",
+            "password": "pbkdf2_sha256$15000$c6AQvuGwLwho$XLaKb/lRNAnHU9Uj4H4XMgDnHZF33Lq2ONFtKqdAIXA=",
+            "user_permissions": [],
+            "username": "nwcps"
+        },
+        "model": "auth.user",
+        "pk": 6
+    },
+    {
+        "fields": {
+            "description": "Hi, I am a serving Police Officer with GMP.",
+            "picture": "profile_pictures/john_smith.jpeg",
+            "user": 7
+        },
+        "model": "stream_twitter.userprofile",
+        "pk": 7
+    },
+    {
+        "fields": {
+            "date_joined": "2014-03-11T19:50:16Z",
+            "email": "",
+            "first_name": "John",
+            "groups": [],
+            "is_active": true,
+            "is_staff": true,
+            "is_superuser": true,
+            "last_login": "2015-03-11T22:34:03.620Z",
+            "last_name": "Smith",
+            "password": "pbkdf2_sha256$15000$c6AQvuGwLwho$XLaKb/lRNAnHU9Uj4H4XMgDnHZF33Lq2ONFtKqdAIXA=",
+            "user_permissions": [],
+            "username": "johnsmith"
+        },
+        "model": "auth.user",
+        "pk": 7
+    },
+    {
+        "fields": {
+            "name": "crimesagainstmusic",
+            "occurrences": 1
+        },
+        "model": "stream_twitter.hashtag",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "created_at": "2015-03-11T21:46:45.304Z",
+            "text": "Peter Andre is in custody. #crimesagainstmusic.",
+            "user": 4
+        },
+        "model": "stream_twitter.tweet",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "created_at": "2015-03-11T21:34:09.319Z",
+            "text": "Hello world, I've just transferred to @strangeways.",
+            "user": 1
+        },
+        "model": "stream_twitter.tweet",
+        "pk": 2
+    },
+    {
+        "fields": {
+            "created_at": "2015-03-11T21:41:56.852Z",
+            "text": "Prisoner 1234-A, Katy Price has been found guilty and will be transferred to @strangeways",
+            "user": 2
+        },
+        "model": "stream_twitter.tweet",
+        "pk": 3
+    },
+    {
+        "fields": {
+            "created_at": "2015-03-11T21:41:56.852Z",
+            "text": "@marymeakin Welcome to Manchester!",
+            "user": 7
+        },
+        "model": "stream_twitter.tweet",
+        "pk": 4
+    },
+    {
+        "fields": {
+            "created_at": "2015-03-11T21:41:56.852Z",
+            "text": "Dinner time on Ward E.",
+            "user": 3
+        },
+        "model": "stream_twitter.tweet",
+        "pk": 5
+    }
+]

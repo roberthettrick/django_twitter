@@ -1,14 +1,17 @@
 from django.conf.urls import patterns, include, url
 from django.contrib import admin
 from django.contrib.auth.decorators import login_required
+from django.contrib.auth import views as auth_views
 from stream_twitter import views
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from django.conf import settings
 
-
 urlpatterns = patterns('',
-  url(r'^accounts/', include('allauth.urls')),
-  url(r'^admin/', include(admin.site.urls)),
+  url(r'^registration/login/', auth_views.login, {'template_name': 'registration/login.html'}),
+  url(r'^login/$', views.login_user),
+  url(r'^registration/logout/',auth_views.logout, {'template_name': 'registration/logout.html'}),
+  url(r'^logout/$', views.logout_user),
+  url(r'^registration/', include(admin.site.urls)),
   url(r'^discover/', login_required(views.discover)),
   url(r'^timeline/',
      login_required(views.TimelineView.as_view())),

@@ -4,7 +4,7 @@ from django.contrib.auth.models import User
 
 from stream_twitter.models import UserProfile
 
-# Define an inline admin descriptor for UserProfile model
+# Define an inline registration descriptor for UserProfile model
 # which acts a bit like a singleton
 
 
@@ -13,7 +13,7 @@ class UserProfileInline(admin.StackedInline):
     can_delete = False
     verbose_name_plural = 'profile'
 
-# Define a new User admin
+# Define a new User registration
 
 
 class UserAdmin(UserAdmin):

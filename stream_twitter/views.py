@@ -1,7 +1,8 @@
+from django.contrib.auth import authenticate, login, logout
+from django.http import HttpResponseRedirect
 from django.views.generic.edit import CreateView
 from django.shortcuts import render_to_response, render, get_object_or_404,\
     redirect
-from django.contrib.auth import authenticate, login as auth_login
 from django.contrib.auth.models import User
 from django.template.context import RequestContext
 from stream_django.enrich import Enrich
@@ -39,13 +40,16 @@ class TimelineView(CreateView):
 
 
 class HomeView(CreateView):
-    greeting = "Welcome to Stream Twitter"
+    greeting = "Welcome to Justice Notifications"
 
     def get(self, request):
+        if not request.user.is_authenticated():
+            return render_to_response('registration/login.html', context_instance=RequestContext(request))
+
         if not request.user.is_authenticated() and not settings.USE_AUTH:
             admin_user = authenticate(
                 username=settings.DEMO_USERNAME, password=settings.DEMO_PASSWORD)
-            auth_login(request, admin_user)
+            login(request, admin_user)
         context = RequestContext(request)
         context_dict = {
             'greeting': self.greeting,
@@ -114,3 +118,22 @@ def hashtag(request, hashtag_name):
         'activities': activities
     }
     return render(request, 'stream_twitter/hashtag.html', context)
+
+def login_user(request):
+    logout(request)
+    username = password = ''
+    if request.POST:
+        username = request.POST['username']
+        password = request.POST['password']
+
+        user = authenticate(username=username, password=password)
+        if user is not None:
+            if user.is_active:
+                login(request, user)
+                return HttpResponseRedirect('/')
+    return render_to_response('login.html', context_instance=RequestContext(request))
+
+def logout_user(request):
+    logout(request)
+    return render_to_response('logout.html', context_instance=RequestContext(request))
+

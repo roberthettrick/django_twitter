@@ -16,7 +16,7 @@ BASE_DIR = os.path.dirname(__file__)
 TEMPLATE_PATH = os.path.join(BASE_DIR, "templates")
 
 BASE_ROOT = os.path.abspath(os.path.join(os.path.split(__file__)[0], '..'))
-STATIC_ROOT = os.path.join(BASE_ROOT, 'static/')
+STATIC_ROOT = os.path.join(BASE_ROOT, 'stream_twitter/static/')
 
 
 # Quick-start development settings - unsuitable for production
@@ -27,7 +27,7 @@ SECRET_KEY = '*m&(&5!c^7j^7s$33u(bt567k!q0)@&p1io_w($ec+g66zr!0@'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 
-DEBUG = os.environ.get("DEBUG", "off") == "on"
+DEBUG = os.environ.get("DEBUG", "on") == "on"
 TEMPLATE_DEBUG = DEBUG
 
 ALLOWED_HOSTS = ['*']
@@ -124,21 +124,22 @@ TEMPLATE_DIRS = (
 
 STREAM_NEWS_FEEDS = dict(flat='flat')
 
-LOGIN_URL = '/'
+LOGIN_URL = '/registration/login'
 USE_AUTH = bool(os.environ.get('USE_AUTH'))
-ACCOUNT_SIGNUP_PASSWORD_VERIFICATION = False
-ACCOUNT_AUTHENTICATION_METHOD = "username"
-ACCOUNT_EMAIL_VERIFICATION = "none"
+#USE_AUTH = True
+#ACCOUNT_SIGNUP_PASSWORD_VERIFICATION = False
+#ACCOUNT_AUTHENTICATION_METHOD = "username"
+#ACCOUNT_EMAIL_VERIFICATION = "none"
 SITE_ID = int(os.environ.get('SITE_ID', 1))
-LOGIN_REDIRECT_URL = '/'
-LOGOUT_REDIRECT_URL = '/'
-ACCOUNT_LOGOUT_ON_GET = True
-ACCOUNT_EMAIL_REQUIRED = False
-SOCIALACCOUNT_EMAIL_REQUIRED = False
-SOCIALACCOUNT_EMAIL_VERIFICATION = "none"
-ACCOUNT_DEFAULT_HTTP_PROTOCOL = "http"
+#LOGIN_REDIRECT_URL = '/tweet'
+#LOGOUT_REDIRECT_URL = '/'
+#ACCOUNT_LOGOUT_ON_GET = True
+#ACCOUNT_EMAIL_REQUIRED = False
+#SOCIALACCOUNT_EMAIL_REQUIRED = False
+#SOCIALACCOUNT_EMAIL_VERIFICATION = "none"
+#ACCOUNT_DEFAULT_HTTP_PROTOCOL = "http"
 
-DEMO_USERNAME = 'theRealAlbert'
+DEMO_USERNAME = 'marymeakin'
 DEMO_PASSWORD = '1234'
 
 AUTH_PROFILE_MODULE = 'stream_twitter.UserProfile'
@@ -146,8 +147,8 @@ AUTH_PROFILE_MODULE = 'stream_twitter.UserProfile'
 # add your api keys from https://getstream.io/dashboard/
 # you do not need this if you are running on Heroku
 # and using getstream add-on
-# STREAM_API_KEY = '1'
-# STREAM_API_SECRET = '1'
+STREAM_API_KEY = '7ywyvxkwaebz'
+STREAM_API_SECRET = 'qc8usapch36tmpk7cfap6j63aud343m2e5ffnbzzsj74spqsadtzsqkjz7maj4t9'
 
 STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 

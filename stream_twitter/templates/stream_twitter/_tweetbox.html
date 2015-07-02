@@ -1,10 +1,21 @@
 <form action="" method="post" class="form-group">{% csrf_token %}
-  <div class="row">
-    <div class="col-xs-8">
-      <input id="id_text" class="form-control" name="text" type="text" placeholder="What's on your mind?">
+    <div class="row">
+        <form action="/" method="post" class="form">
+            <!--<div class="form-group">-->
+            <div class="col-xs-8">
+                <input class="form-control-3-4" id="id_text" name="text" type="text" placeholder="What's on your mind?">
+            </div>
+            <div class="col-xs-4">
+                <button class="button" type="submit" value="Create">Save</button>
+            </div>
+        </form>
+        <!--
+        <div class="col-xs-8">
+          <input id="id_text" class="form-control" name="text" type="text" placeholder="What's on your mind?">
+        </div>
+      <div class="col-xs-4">
+        <input type="submit" value="Create" class="btn btn-primary"/>
+      </div>
+        -->
     </div>
-  <div class="col-xs-4">
-    <input type="submit" value="Create" class="btn btn-primary"/>
-  </div>
-  </div>
 </form>

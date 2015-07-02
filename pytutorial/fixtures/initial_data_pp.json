@@ -1,0 +1,1173 @@
+#Run through with python -m json.tool
+[
+    {
+        "fields": {
+            "expire_date": "2015-03-25T22:07:33.571Z",
+            "session_data": "NTdmZmZiNmM1ZWUwMjNmMWNiNGY2NGZjNTdlOTk3MDM1MjdiNjA3ODp7Il9hdXRoX3VzZXJfaGFzaCI6IjhjOGQzYTVhMzkxMDkwMTI1NDRjNjJmZWUyN2Q5NTU5ZDYzZTY5NmEiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOjJ9"
+        },
+        "model": "sessions.session",
+        "pk": "2hncfrc2v892c5kk5aftns1jz92rfptu"
+    },
+    {
+        "fields": {
+            "expire_date": "2015-03-25T22:01:53.621Z",
+            "session_data": "MjY3ZGRjMmViYmYwZTU1Y2ViZjBiNjgxZDNmMTA1YjIyNTcxODk0Yzp7Il9hdXRoX3VzZXJfaGFzaCI6IjQyZGJhOWYyMDczYWU2NTlhMTQxYTM5ZTE1N2FiZDcwOTNkYWY5ZDQiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOjN9"
+        },
+        "model": "sessions.session",
+        "pk": "4bgvx04j03kwxey77qoc0s4jf3gku2eh"
+    },
+    {
+        "fields": {
+            "expire_date": "2015-03-25T19:51:41.760Z",
+            "session_data": "M2Q2YmZhODAzYzE5NTJmOWU2OTk0ZTQ1NDllZjcyOTY2NjY5MjE4ZDp7fQ=="
+        },
+        "model": "sessions.session",
+        "pk": "cfms8hwyv9rw2bh0jodgx6nxmheqg3bt"
+    },
+    {
+        "fields": {
+            "expire_date": "2015-03-25T21:33:24.918Z",
+            "session_data": "ODQ0YWMyNGNlYjBlMTBmZjEzZDFkNzdmY2Y2MWFlMzk2ZTRjZjU5Njp7Il9hdXRoX3VzZXJfaGFzaCI6IjFiZWU1YmVlOGRiNGIxMjQyNWI0ODY0MTY2NDVjZTU2NjJjOTgwMjgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOjZ9"
+        },
+        "model": "sessions.session",
+        "pk": "hlrhpmhcfyr35owlug131nhui2osbqwd"
+    },
+    {
+        "fields": {
+            "expire_date": "2015-03-25T22:34:03.830Z",
+            "session_data": "MjJjYTM4NmRkY2M4OTA1YjBhMzExOTQ0NzdjMGU3MDE3NTRiZjJlOTp7Il9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9pZCI6MSwiX2F1dGhfdXNlcl9oYXNoIjoiYmI0NWU5YmIzYmQ0NWViMTFkYzQ0M2Y0ODE0MDZjMmJiMzg4NDg1YiJ9"
+        },
+        "model": "sessions.session",
+        "pk": "l5gll7vnluab6sgk7oo9b94qubuhq1i8"
+    },
+    {
+        "fields": {
+            "expire_date": "2015-03-25T22:01:25.041Z",
+            "session_data": "OTIyMWNjYmJiM2E2ZmQyMTg2NjBmZDA5YjFiNzg3MzBlZDQwN2RkMjp7Il9hdXRoX3VzZXJfaGFzaCI6ImJiNDVlOWJiM2JkNDVlYjExZGM0NDNmNDgxNDA2YzJiYjM4ODQ4NWIiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOjF9"
+        },
+        "model": "sessions.session",
+        "pk": "lu9g4k7mcte111au0elu6yxjl0y8b5cb"
+    },
+    {
+        "fields": {
+            "expire_date": "2015-03-25T22:01:23.620Z",
+            "session_data": "OTIyMWNjYmJiM2E2ZmQyMTg2NjBmZDA5YjFiNzg3MzBlZDQwN2RkMjp7Il9hdXRoX3VzZXJfaGFzaCI6ImJiNDVlOWJiM2JkNDVlYjExZGM0NDNmNDgxNDA2YzJiYjM4ODQ4NWIiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOjF9"
+        },
+        "model": "sessions.session",
+        "pk": "nd38fkwvy3qqzmamn771r5brcsjklyc0"
+    },
+    {
+        "fields": {
+            "expire_date": "2015-03-25T22:20:17.407Z",
+            "session_data": "NGRkMTU5MjY2YzY1NGFhNzI1MWE5NDIzMzJhY2I4MGU4Yjc0NTgwODp7Il9hdXRoX3VzZXJfaGFzaCI6IjU1YTM1OGFkYmMyNDc1MjQ4YjkzNTdkNGYxZjQyZDUyZmVjZGFhODAiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOjV9"
+        },
+        "model": "sessions.session",
+        "pk": "tkwcphrojgfvnx15fb4saunvphba23pw"
+    },
+    {
+        "fields": {
+            "expire_date": "2015-03-25T22:01:22.119Z",
+            "session_data": "OTIyMWNjYmJiM2E2ZmQyMTg2NjBmZDA5YjFiNzg3MzBlZDQwN2RkMjp7Il9hdXRoX3VzZXJfaGFzaCI6ImJiNDVlOWJiM2JkNDVlYjExZGM0NDNmNDgxNDA2YzJiYjM4ODQ4NWIiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOjF9"
+        },
+        "model": "sessions.session",
+        "pk": "tqnsryup4gm8k8hjkih0jq37rr7rkasl"
+    },
+    {
+        "fields": {
+            "expire_date": "2015-03-25T19:50:42.597Z",
+            "session_data": "OTIyMWNjYmJiM2E2ZmQyMTg2NjBmZDA5YjFiNzg3MzBlZDQwN2RkMjp7Il9hdXRoX3VzZXJfaGFzaCI6ImJiNDVlOWJiM2JkNDVlYjExZGM0NDNmNDgxNDA2YzJiYjM4ODQ4NWIiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOjF9"
+        },
+        "model": "sessions.session",
+        "pk": "u5nh4tnux8d5jnoyvak2uyi924egaexh"
+    },
+    {
+        "fields": {
+            "expire_date": "2015-03-25T19:50:34.910Z",
+            "session_data": "M2Q2YmZhODAzYzE5NTJmOWU2OTk0ZTQ1NDllZjcyOTY2NjY5MjE4ZDp7fQ=="
+        },
+        "model": "sessions.session",
+        "pk": "zk3hdtni5sgr12v1m6tamt8ikj6f885t"
+    },
+    {
+        "fields": {
+            "name": "mariecurie",
+            "occurrences": 1
+        },
+        "model": "stream_twitter.hashtag",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "name": "science",
+            "occurrences": 3
+        },
+        "model": "stream_twitter.hashtag",
+        "pk": 2
+    },
+    {
+        "fields": {
+            "name": "noizzzze",
+            "occurrences": 1
+        },
+        "model": "stream_twitter.hashtag",
+        "pk": 3
+    },
+    {
+        "fields": {
+            "name": "notme",
+            "occurrences": 1
+        },
+        "model": "stream_twitter.hashtag",
+        "pk": 4
+    },
+    {
+        "fields": {
+            "name": "knowledge",
+            "occurrences": 1
+        },
+        "model": "stream_twitter.hashtag",
+        "pk": 5
+    },
+    {
+        "fields": {
+            "name": "realscience",
+            "occurrences": 1
+        },
+        "model": "stream_twitter.hashtag",
+        "pk": 6
+    },
+    {
+        "fields": {
+            "name": "fashion",
+            "occurrences": 2
+        },
+        "model": "stream_twitter.hashtag",
+        "pk": 7
+    },
+    {
+        "fields": {
+            "name": "warofthecurrents",
+            "occurrences": 3
+        },
+        "model": "stream_twitter.hashtag",
+        "pk": 8
+    },
+    {
+        "fields": {
+            "name": "dc",
+            "occurrences": 4
+        },
+        "model": "stream_twitter.hashtag",
+        "pk": 9
+    },
+    {
+        "fields": {
+            "name": "ac",
+            "occurrences": 2
+        },
+        "model": "stream_twitter.hashtag",
+        "pk": 10
+    },
+    {
+        "fields": {
+            "name": "thugforlife",
+            "occurrences": 1
+        },
+        "model": "stream_twitter.hashtag",
+        "pk": 11
+    },
+    {
+        "fields": {
+            "name": "swag",
+            "occurrences": 1
+        },
+        "model": "stream_twitter.hashtag",
+        "pk": 12
+    },
+    {
+        "fields": {
+            "name": "believer",
+            "occurrences": 1
+        },
+        "model": "stream_twitter.hashtag",
+        "pk": 13
+    },
+    {
+        "fields": {
+            "codename": "add_logentry",
+            "content_type": 1,
+            "name": "Can add log entry"
+        },
+        "model": "auth.permission",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "codename": "change_logentry",
+            "content_type": 1,
+            "name": "Can change log entry"
+        },
+        "model": "auth.permission",
+        "pk": 2
+    },
+    {
+        "fields": {
+            "codename": "delete_logentry",
+            "content_type": 1,
+            "name": "Can delete log entry"
+        },
+        "model": "auth.permission",
+        "pk": 3
+    },
+    {
+        "fields": {
+            "codename": "add_permission",
+            "content_type": 2,
+            "name": "Can add permission"
+        },
+        "model": "auth.permission",
+        "pk": 4
+    },
+    {
+        "fields": {
+            "codename": "change_permission",
+            "content_type": 2,
+            "name": "Can change permission"
+        },
+        "model": "auth.permission",
+        "pk": 5
+    },
+    {
+        "fields": {
+            "codename": "delete_permission",
+            "content_type": 2,
+            "name": "Can delete permission"
+        },
+        "model": "auth.permission",
+        "pk": 6
+    },
+    {
+        "fields": {
+            "codename": "add_group",
+            "content_type": 3,
+            "name": "Can add group"
+        },
+        "model": "auth.permission",
+        "pk": 7
+    },
+    {
+        "fields": {
+            "codename": "change_group",
+            "content_type": 3,
+            "name": "Can change group"
+        },
+        "model": "auth.permission",
+        "pk": 8
+    },
+    {
+        "fields": {
+            "codename": "delete_group",
+            "content_type": 3,
+            "name": "Can delete group"
+        },
+        "model": "auth.permission",
+        "pk": 9
+    },
+    {
+        "fields": {
+            "codename": "add_user",
+            "content_type": 4,
+            "name": "Can add user"
+        },
+        "model": "auth.permission",
+        "pk": 10
+    },
+    {
+        "fields": {
+            "codename": "change_user",
+            "content_type": 4,
+            "name": "Can change user"
+        },
+        "model": "auth.permission",
+        "pk": 11
+    },
+    {
+        "fields": {
+            "codename": "delete_user",
+            "content_type": 4,
+            "name": "Can delete user"
+        },
+        "model": "auth.permission",
+        "pk": 12
+    },
+    {
+        "fields": {
+            "codename": "add_contenttype",
+            "content_type": 5,
+            "name": "Can add content type"
+        },
+        "model": "auth.permission",
+        "pk": 13
+    },
+    {
+        "fields": {
+            "codename": "change_contenttype",
+            "content_type": 5,
+            "name": "Can change content type"
+        },
+        "model": "auth.permission",
+        "pk": 14
+    },
+    {
+        "fields": {
+            "codename": "delete_contenttype",
+            "content_type": 5,
+            "name": "Can delete content type"
+        },
+        "model": "auth.permission",
+        "pk": 15
+    },
+    {
+        "fields": {
+            "codename": "add_session",
+            "content_type": 6,
+            "name": "Can add session"
+        },
+        "model": "auth.permission",
+        "pk": 16
+    },
+    {
+        "fields": {
+            "codename": "change_session",
+            "content_type": 6,
+            "name": "Can change session"
+        },
+        "model": "auth.permission",
+        "pk": 17
+    },
+    {
+        "fields": {
+            "codename": "delete_session",
+            "content_type": 6,
+            "name": "Can delete session"
+        },
+        "model": "auth.permission",
+        "pk": 18
+    },
+    {
+        "fields": {
+            "codename": "add_tweet",
+            "content_type": 7,
+            "name": "Can add tweet"
+        },
+        "model": "auth.permission",
+        "pk": 19
+    },
+    {
+        "fields": {
+            "codename": "change_tweet",
+            "content_type": 7,
+            "name": "Can change tweet"
+        },
+        "model": "auth.permission",
+        "pk": 20
+    },
+    {
+        "fields": {
+            "codename": "delete_tweet",
+            "content_type": 7,
+            "name": "Can delete tweet"
+        },
+        "model": "auth.permission",
+        "pk": 21
+    },
+    {
+        "fields": {
+            "codename": "add_follow",
+            "content_type": 8,
+            "name": "Can add follow"
+        },
+        "model": "auth.permission",
+        "pk": 22
+    },
+    {
+        "fields": {
+            "codename": "change_follow",
+            "content_type": 8,
+            "name": "Can change follow"
+        },
+        "model": "auth.permission",
+        "pk": 23
+    },
+    {
+        "fields": {
+            "codename": "delete_follow",
+            "content_type": 8,
+            "name": "Can delete follow"
+        },
+        "model": "auth.permission",
+        "pk": 24
+    },
+    {
+        "fields": {
+            "codename": "add_userprofile",
+            "content_type": 9,
+            "name": "Can add user profile"
+        },
+        "model": "auth.permission",
+        "pk": 25
+    },
+    {
+        "fields": {
+            "codename": "change_userprofile",
+            "content_type": 9,
+            "name": "Can change user profile"
+        },
+        "model": "auth.permission",
+        "pk": 26
+    },
+    {
+        "fields": {
+            "codename": "delete_userprofile",
+            "content_type": 9,
+            "name": "Can delete user profile"
+        },
+        "model": "auth.permission",
+        "pk": 27
+    },
+    {
+        "fields": {
+            "codename": "add_hashtag",
+            "content_type": 10,
+            "name": "Can add hashtag"
+        },
+        "model": "auth.permission",
+        "pk": 28
+    },
+    {
+        "fields": {
+            "codename": "change_hashtag",
+            "content_type": 10,
+            "name": "Can change hashtag"
+        },
+        "model": "auth.permission",
+        "pk": 29
+    },
+    {
+        "fields": {
+            "codename": "delete_hashtag",
+            "content_type": 10,
+            "name": "Can delete hashtag"
+        },
+        "model": "auth.permission",
+        "pk": 30
+    },
+    {
+        "fields": {
+            "date_joined": "2014-03-11T19:50:16Z",
+            "email": "",
+            "first_name": "Albert",
+            "groups": [],
+            "is_active": true,
+            "is_staff": true,
+            "is_superuser": true,
+            "last_login": "2015-03-11T22:34:03.620Z",
+            "last_name": "Einstein",
+            "password": "pbkdf2_sha256$15000$c6AQvuGwLwho$XLaKb/lRNAnHU9Uj4H4XMgDnHZF33Lq2ONFtKqdAIXA=",
+            "user_permissions": [],
+            "username": "theRealAlbert"
+        },
+        "model": "auth.user",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "date_joined": "2015-03-11T21:03:43Z",
+            "email": "",
+            "first_name": "Nikola",
+            "groups": [],
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "last_login": "2015-03-11T22:07:33.522Z",
+            "last_name": "Tesla",
+            "password": "pbkdf2_sha256$15000$XKtkJQ0pmXjV$U+heg78cwsyEdlse9e8+2QCTcQA001JKaFLgtmG52R4=",
+            "user_permissions": [],
+            "username": "teslaModelX"
+        },
+        "model": "auth.user",
+        "pk": 2
+    },
+    {
+        "fields": {
+            "date_joined": "2015-03-11T20:49:00Z",
+            "email": "",
+            "first_name": "Thomas",
+            "groups": [],
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "last_login": "2015-03-11T22:01:53.458Z",
+            "last_name": "Edison",
+            "password": "pbkdf2_sha256$15000$6mwtpRy2lGUA$gO1ynB/N73frIuveSHLe2fYs3iyUc7OanpMnvN4pFfQ=",
+            "user_permissions": [],
+            "username": "edison"
+        },
+        "model": "auth.user",
+        "pk": 3
+    },
+    {
+        "fields": {
+            "date_joined": "2014-03-11T21:01:12Z",
+            "email": "",
+            "first_name": "Albert",
+            "groups": [],
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "last_login": "2015-03-11T21:53:38Z",
+            "last_name": "Einstein",
+            "password": "pbkdf2_sha256$15000$6ckhFDm8u2hq$x0tyg4kjO9Bb3le3E2di5UF/AYwuHQdwRpsKRyGFqdE=",
+            "user_permissions": [],
+            "username": "albert"
+        },
+        "model": "auth.user",
+        "pk": 4
+    },
+    {
+        "fields": {
+            "date_joined": "2012-03-11T21:07:56Z",
+            "email": "",
+            "first_name": "",
+            "groups": [],
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "last_login": "2015-03-11T22:20:17.344Z",
+            "last_name": "",
+            "password": "pbkdf2_sha256$15000$GqtXBpjUP2ud$ze6AeI8/PMrCi4SaP7x8bG8h88dU89YkmNMIiBLhV1w=",
+            "user_permissions": [],
+            "username": "pikachu1413"
+        },
+        "model": "auth.user",
+        "pk": 5
+    },
+    {
+        "fields": {
+            "date_joined": "2011-03-11T21:31:51Z",
+            "email": "",
+            "first_name": "Marie",
+            "groups": [],
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "last_login": "2015-03-11T21:33:24.874Z",
+            "last_name": "Curie",
+            "password": "pbkdf2_sha256$15000$rcLock8ALyid$kTKvLqGRdxG5vITz4eAiC6cVlpfmdDGuT0SYhK3XUtQ=",
+            "user_permissions": [],
+            "username": "marieCurie"
+        },
+        "model": "auth.user",
+        "pk": 6
+    },
+    {
+        "fields": {
+            "created_at": "2015-03-11T21:34:09.319Z",
+            "text": "Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less. #MarieCurie",
+            "user": 6
+        },
+        "model": "stream_twitter.tweet",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "created_at": "2015-03-11T21:41:56.852Z",
+            "text": "Measurements of various quantities are relative to the velocities of observers. In particular, space contracts and time dilates. #Science",
+            "user": 4
+        },
+        "model": "stream_twitter.tweet",
+        "pk": 2
+    },
+    {
+        "fields": {
+            "created_at": "2015-03-11T21:46:45.304Z",
+            "text": "In #Science, we must be interested in things, not in persons.",
+            "user": 6
+        },
+        "model": "stream_twitter.tweet",
+        "pk": 3
+    },
+    {
+        "fields": {
+            "created_at": "2015-03-11T21:51:11.602Z",
+            "text": "wasssup all yo hustlas out there. First time joining in Stream Twitter here. y'all make some #noizzzze",
+            "user": 1
+        },
+        "model": "stream_twitter.tweet",
+        "pk": 4
+    },
+    {
+        "fields": {
+            "created_at": "2015-03-11T21:52:18.574Z",
+            "text": "Just like to point out that @albert is #notMe, he is my driver. Please follow me instead and learn some real #knowledge",
+            "user": 1
+        },
+        "model": "stream_twitter.tweet",
+        "pk": 5
+    },
+    {
+        "fields": {
+            "created_at": "2015-03-11T21:54:01.665Z",
+            "text": "The speed of light is nonetheless invariant, the same for all observers.",
+            "user": 4
+        },
+        "model": "stream_twitter.tweet",
+        "pk": 6
+    },
+    {
+        "fields": {
+            "created_at": "2015-03-11T21:55:05.178Z",
+            "text": "@albert yo bro, not cool stop pretend to be me and post random nonsense ",
+            "user": 1
+        },
+        "model": "stream_twitter.tweet",
+        "pk": 7
+    },
+    {
+        "fields": {
+            "created_at": "2015-03-11T21:58:35.051Z",
+            "text": "Put your hand on a hot stove for a minute, and it seems like an hour. Sit with a pretty girl for an hour, and it seems like a minute. That's relativity!",
+            "user": 1
+        },
+        "model": "stream_twitter.tweet",
+        "pk": 8
+    },
+    {
+        "fields": {
+            "created_at": "2015-03-11T21:58:47.712Z",
+            "text": "#realScience",
+            "user": 1
+        },
+        "model": "stream_twitter.tweet",
+        "pk": 9
+    },
+    {
+        "fields": {
+            "created_at": "2015-03-11T21:59:38.469Z",
+            "text": "All my life through, the new sights of Nature made me rejoice like a child. ",
+            "user": 6
+        },
+        "model": "stream_twitter.tweet",
+        "pk": 10
+    },
+    {
+        "fields": {
+            "created_at": "2015-03-11T22:02:00.071Z",
+            "text": "Q: How many college football players does it take to change a light  bulb?",
+            "user": 3
+        },
+        "model": "stream_twitter.tweet",
+        "pk": 11
+    },
+    {
+        "fields": {
+            "created_at": "2015-03-11T22:02:17.173Z",
+            "text": "A: The entire team! And they all get a semester's credit for it!",
+            "user": 3
+        },
+        "model": "stream_twitter.tweet",
+        "pk": 12
+    },
+    {
+        "fields": {
+            "created_at": "2015-03-11T22:03:37.439Z",
+            "text": "Q:  How many people does it take to change an object-oriented light bulb?",
+            "user": 3
+        },
+        "model": "stream_twitter.tweet",
+        "pk": 13
+    },
+    {
+        "fields": {
+            "created_at": "2015-03-11T22:03:57.469Z",
+            "text": "A:  Change it? Aw shucks, I was going to reuse it.",
+            "user": 3
+        },
+        "model": "stream_twitter.tweet",
+        "pk": 14
+    },
+    {
+        "fields": {
+            "created_at": "2015-03-11T22:04:28.038Z",
+            "text": "@edison lmao, bruhh that's hella funny!",
+            "user": 1
+        },
+        "model": "stream_twitter.tweet",
+        "pk": 15
+    },
+    {
+        "fields": {
+            "created_at": "2015-03-11T22:07:49.814Z",
+            "text": "\"Style is joyful if you allow yourself to have joy.\" - @teslaModelX  #Fashion",
+            "user": 2
+        },
+        "model": "stream_twitter.tweet",
+        "pk": 16
+    },
+    {
+        "fields": {
+            "created_at": "2015-03-11T22:08:48.582Z",
+            "text": "Try This: Build Your Room Like You Build Your Wardrobe on.apttherapy.com/vCZaJk  #Fashion ",
+            "user": 2
+        },
+        "model": "stream_twitter.tweet",
+        "pk": 17
+    },
+    {
+        "fields": {
+            "created_at": "2015-03-11T22:12:05.791Z",
+            "text": "Regarding on the recent accusation that I am not the real Albert Einstein. I believe I have the right to remain silent.",
+            "user": 4
+        },
+        "model": "stream_twitter.tweet",
+        "pk": 18
+    },
+    {
+        "fields": {
+            "created_at": "2015-03-11T22:12:29.474Z",
+            "text": "@albert aha!",
+            "user": 1
+        },
+        "model": "stream_twitter.tweet",
+        "pk": 19
+    },
+    {
+        "fields": {
+            "created_at": "2015-03-11T22:15:38.716Z",
+            "text": "#WarOfTheCurrents #DC ! #DC ! #DC ! #DC !",
+            "user": 3
+        },
+        "model": "stream_twitter.tweet",
+        "pk": 20
+    },
+    {
+        "fields": {
+            "created_at": "2015-03-11T22:16:19.253Z",
+            "text": "#WarOfTheCurrents folk, learn the safety issues of high voltage transmission. #DC for the win!",
+            "user": 3
+        },
+        "model": "stream_twitter.tweet",
+        "pk": 21
+    },
+    {
+        "fields": {
+            "created_at": "2015-03-11T22:17:35.386Z",
+            "text": "@edison not that I care, but I think #AC is definitely better.",
+            "user": 2
+        },
+        "model": "stream_twitter.tweet",
+        "pk": 22
+    },
+    {
+        "fields": {
+            "created_at": "2015-03-11T22:19:38.743Z",
+            "text": "#WarOfTheCurrents, Arthur Kennelly and Harold Brown will join me to conduct a couple of #AC experiment on cute animals to show you all how scary #AC is",
+            "user": 3
+        },
+        "model": "stream_twitter.tweet",
+        "pk": 23
+    },
+    {
+        "fields": {
+            "created_at": "2015-03-11T22:20:35.667Z",
+            "text": "#DC pika pika pika!!",
+            "user": 5
+        },
+        "model": "stream_twitter.tweet",
+        "pk": 24
+    },
+    {
+        "fields": {
+            "created_at": "2015-03-11T22:21:03.846Z",
+            "text": "@edison pika pika, pika pika pika pika pppppiiiika #DC",
+            "user": 5
+        },
+        "model": "stream_twitter.tweet",
+        "pk": 25
+    },
+    {
+        "fields": {
+            "created_at": "2015-03-11T22:23:04.029Z",
+            "text": "#swag #believer #thugForLife #Science",
+            "user": 1
+        },
+        "model": "stream_twitter.tweet",
+        "pk": 26
+    },
+    {
+        "fields": {
+            "description": "I am the real Albert Einstein, @albert is just my driver. He knows nothing about theory of relativity or how to be a scientific thug with #swag. Please follow me instead.",
+            "picture": "profile_pictures/albert_RUZNi3E.png",
+            "user": 1
+        },
+        "model": "stream_twitter.userprofile",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "description": "His name is Tesla, Nicola Tesla. He is a professional male model under the name \"X\". He occasionally does science stuff. From time to time, he also refer to himself as a third person.",
+            "picture": "profile_pictures/testla.png",
+            "user": 2
+        },
+        "model": "stream_twitter.userprofile",
+        "pk": 2
+    },
+    {
+        "fields": {
+            "description": "I invented pretty much everything. I am a genius!",
+            "picture": "profile_pictures/edison.png",
+            "user": 3
+        },
+        "model": "stream_twitter.userprofile",
+        "pk": 3
+    },
+    {
+        "fields": {
+            "description": "For my recent paper, The Gravitational Equations And The Problem Of Motion. Please visit: bit.ly/1D72PVE",
+            "picture": "profile_pictures/albert1_6QY1aPb.png",
+            "user": 4
+        },
+        "model": "stream_twitter.userprofile",
+        "pk": 4
+    },
+    {
+        "fields": {
+            "description": "pika pika pika pika pika, pika pika",
+            "picture": "profile_pictures/pika.png",
+            "user": 5
+        },
+        "model": "stream_twitter.userprofile",
+        "pk": 5
+    },
+    {
+        "fields": {
+            "description": "Certified. I am a Polish and naturalized-French physicist and chemist who conducted pioneering research on radioactivity.",
+            "picture": "profile_pictures/marie.png",
+            "user": 6
+        },
+        "model": "stream_twitter.userprofile",
+        "pk": 6
+    },
+    {
+        "fields": {
+            "action_flag": 2,
+            "action_time": "2015-03-11T20:15:44.539Z",
+            "change_message": "Changed first_name and last_name. Added user profile \"UserProfile object\".",
+            "content_type": 4,
+            "object_id": "1",
+            "object_repr": "theRealAlbert",
+            "user": 1
+        },
+        "model": "admin.logentry",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "action_flag": 1,
+            "action_time": "2015-03-11T20:31:05.042Z",
+            "change_message": "",
+            "content_type": 4,
+            "object_id": "2",
+            "object_repr": "teslaModelX",
+            "user": 1
+        },
+        "model": "admin.logentry",
+        "pk": 2
+    },
+    {
+        "fields": {
+            "action_flag": 2,
+            "action_time": "2015-03-11T20:42:15.768Z",
+            "change_message": "Changed picture for user profile \"UserProfile object\".",
+            "content_type": 4,
+            "object_id": "2",
+            "object_repr": "teslaModelX",
+            "user": 1
+        },
+        "model": "admin.logentry",
+        "pk": 3
+    },
+    {
+        "fields": {
+            "action_flag": 2,
+            "action_time": "2015-03-11T20:42:36.255Z",
+            "change_message": "Changed description for user profile \"UserProfile object\".",
+            "content_type": 4,
+            "object_id": "2",
+            "object_repr": "teslaModelX",
+            "user": 1
+        },
+        "model": "admin.logentry",
+        "pk": 4
+    },
+    {
+        "fields": {
+            "action_flag": 1,
+            "action_time": "2015-03-11T20:49:00.881Z",
+            "change_message": "",
+            "content_type": 4,
+            "object_id": "3",
+            "object_repr": "edison",
+            "user": 1
+        },
+        "model": "admin.logentry",
+        "pk": 5
+    },
+    {
+        "fields": {
+            "action_flag": 1,
+            "action_time": "2015-03-11T21:01:12.563Z",
+            "change_message": "",
+            "content_type": 4,
+            "object_id": "4",
+            "object_repr": "albertEinstein",
+            "user": 1
+        },
+        "model": "admin.logentry",
+        "pk": 6
+    },
+    {
+        "fields": {
+            "action_flag": 2,
+            "action_time": "2015-03-11T21:01:36.592Z",
+            "change_message": "Changed description for user profile \"UserProfile object\".",
+            "content_type": 4,
+            "object_id": "4",
+            "object_repr": "albertEinstein",
+            "user": 1
+        },
+        "model": "admin.logentry",
+        "pk": 7
+    },
+    {
+        "fields": {
+            "action_flag": 2,
+            "action_time": "2015-03-11T21:02:06.718Z",
+            "change_message": "Changed username.",
+            "content_type": 4,
+            "object_id": "4",
+            "object_repr": "albert",
+            "user": 1
+        },
+        "model": "admin.logentry",
+        "pk": 8
+    },
+    {
+        "fields": {
+            "action_flag": 2,
+            "action_time": "2015-03-11T21:02:47.001Z",
+            "change_message": "Changed date_joined.",
+            "content_type": 4,
+            "object_id": "1",
+            "object_repr": "theRealAlbert",
+            "user": 1
+        },
+        "model": "admin.logentry",
+        "pk": 9
+    },
+    {
+        "fields": {
+            "action_flag": 2,
+            "action_time": "2015-03-11T21:02:58.913Z",
+            "change_message": "Changed last_login.",
+            "content_type": 4,
+            "object_id": "4",
+            "object_repr": "albert",
+            "user": 1
+        },
+        "model": "admin.logentry",
+        "pk": 10
+    },
+    {
+        "fields": {
+            "action_flag": 2,
+            "action_time": "2015-03-11T21:03:19.157Z",
+            "change_message": "Changed date_joined.",
+            "content_type": 4,
+            "object_id": "4",
+            "object_repr": "albert",
+            "user": 1
+        },
+        "model": "admin.logentry",
+        "pk": 11
+    },
+    {
+        "fields": {
+            "action_flag": 2,
+            "action_time": "2015-03-11T21:03:45.505Z",
+            "change_message": "Changed date_joined.",
+            "content_type": 4,
+            "object_id": "2",
+            "object_repr": "teslaModelX",
+            "user": 1
+        },
+        "model": "admin.logentry",
+        "pk": 12
+    },
+    {
+        "fields": {
+            "action_flag": 2,
+            "action_time": "2015-03-11T21:04:31.674Z",
+            "change_message": "Changed first_name and last_name.",
+            "content_type": 4,
+            "object_id": "3",
+            "object_repr": "edison",
+            "user": 1
+        },
+        "model": "admin.logentry",
+        "pk": 13
+    },
+    {
+        "fields": {
+            "action_flag": 2,
+            "action_time": "2015-03-11T21:04:42.622Z",
+            "change_message": "Changed first_name and last_name.",
+            "content_type": 4,
+            "object_id": "4",
+            "object_repr": "albert",
+            "user": 1
+        },
+        "model": "admin.logentry",
+        "pk": 14
+    },
+    {
+        "fields": {
+            "action_flag": 2,
+            "action_time": "2015-03-11T21:05:07.854Z",
+            "change_message": "Changed first_name and last_name.",
+            "content_type": 4,
+            "object_id": "2",
+            "object_repr": "teslaModelX",
+            "user": 1
+        },
+        "model": "admin.logentry",
+        "pk": 15
+    },
+    {
+        "fields": {
+            "action_flag": 1,
+            "action_time": "2015-03-11T21:07:56.432Z",
+            "change_message": "",
+            "content_type": 4,
+            "object_id": "5",
+            "object_repr": "pikachu1413",
+            "user": 1
+        },
+        "model": "admin.logentry",
+        "pk": 16
+    },
+    {
+        "fields": {
+            "action_flag": 2,
+            "action_time": "2015-03-11T21:08:04.136Z",
+            "change_message": "Changed date_joined.",
+            "content_type": 4,
+            "object_id": "5",
+            "object_repr": "pikachu1413",
+            "user": 1
+        },
+        "model": "admin.logentry",
+        "pk": 17
+    },
+    {
+        "fields": {
+            "action_flag": 2,
+            "action_time": "2015-03-11T21:20:26.917Z",
+            "change_message": "Changed description for user profile \"UserProfile object\".",
+            "content_type": 4,
+            "object_id": "4",
+            "object_repr": "albert",
+            "user": 1
+        },
+        "model": "admin.logentry",
+        "pk": 18
+    },
+    {
+        "fields": {
+            "action_flag": 1,
+            "action_time": "2015-03-11T21:31:51.967Z",
+            "change_message": "",
+            "content_type": 4,
+            "object_id": "6",
+            "object_repr": "marieCurie",
+            "user": 1
+        },
+        "model": "admin.logentry",
+        "pk": 19
+    },
+    {
+        "fields": {
+            "action_flag": 2,
+            "action_time": "2015-03-11T21:32:41.107Z",
+            "change_message": "Changed first_name, last_name and date_joined.",
+            "content_type": 4,
+            "object_id": "6",
+            "object_repr": "marieCurie",
+            "user": 1
+        },
+        "model": "admin.logentry",
+        "pk": 20
+    },
+    {
+        "fields": {
+            "action_flag": 2,
+            "action_time": "2015-03-11T21:38:08.548Z",
+            "change_message": "Changed date_joined.",
+            "content_type": 4,
+            "object_id": "4",
+            "object_repr": "albert",
+            "user": 1
+        },
+        "model": "admin.logentry",
+        "pk": 21
+    },
+    {
+        "fields": {
+            "action_flag": 2,
+            "action_time": "2015-03-11T22:28:54.056Z",
+            "change_message": "Changed picture for user profile \"UserProfile object\".",
+            "content_type": 4,
+            "object_id": "4",
+            "object_repr": "albert",
+            "user": 1
+        },
+        "model": "admin.logentry",
+        "pk": 22
+    },
+    {
+        "fields": {
+            "action_flag": 2,
+            "action_time": "2015-03-11T22:29:17.124Z",
+            "change_message": "Changed picture for user profile \"UserProfile object\".",
+            "content_type": 4,
+            "object_id": "4",
+            "object_repr": "albert",
+            "user": 1
+        },
+        "model": "admin.logentry",
+        "pk": 23
+    },
+    {
+        "fields": {
+            "action_flag": 2,
+            "action_time": "2015-03-11T22:29:30.904Z",
+            "change_message": "Changed picture for user profile \"UserProfile object\".",
+            "content_type": 4,
+            "object_id": "1",
+            "object_repr": "theRealAlbert",
+            "user": 1
+        },
+        "model": "admin.logentry",
+        "pk": 24
+    }
+]

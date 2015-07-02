@@ -3,13 +3,13 @@ div.user-picture {
 }
 
 div.activity {
-    background-color: #FFF;
+    background-color: #DEE0E2;
     padding: 20px;
     margin: 20px;
 }
 
 div.user {
-    background-color: #FFF;
+    background-color: #DEE0E2;
     margin-top: 20px;
 }
 
@@ -71,9 +71,9 @@ div.search-title {
 
 div.description {
     margin: 20px 0px 20px 0px;
-    font-size: 25px;
+    font-size: 24px;
     text-align: center;
-    color: #FFF;
+    color: #00b0c0c;
 }
 
 .navbar {
@@ -98,13 +98,28 @@ img.profile-picture {
     min-width: 80px;
 }
 
+#footer .footer-meta .footer-meta-inner .open-government-licence {
+    padding-left: 0px;
+}
+
+#footer .footer-meta .copyright a {
+    background: transparent url("/media/assets/govuk-crest.png") no-repeat scroll 100% 0px;
+}
+
 h1.welcome-title {
-    font-size: 60px;
-    color: #FFF;
+    font-weight: bold;
+    font-size: 48px;
+    color: #0b0c0c;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 24px;
+    color: #0b0c0c;
 }
 
 a.hashtag {
-    color: #FFF;
+    color: #005EA5;
     font-size: 20px;
 }
 
@@ -136,5 +151,5 @@ a.description-link:hover {
 }
 
 /*body {
-    color: #2B4155;
+    color: #FFFFFF;
 }
