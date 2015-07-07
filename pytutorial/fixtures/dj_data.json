@@ -271,48 +271,35 @@
     },
     {
         "fields": {
-            "description": "Hi, I am a Probation Officer within the National Probation Service, currently working at Strangeways.",
-            "picture": "profile_pictures/mary_meakin.jpeg",
+            "description": "The Ministry of Justice",
+            "picture": "profile_pictures/moj.png",
             "user": 1
         },
         "model": "stream_twitter.userprofile",
-        "pk": 1
-    },
-  {
-        "fields": {
-            "action_flag": 2,
-            "action_time": "2015-03-11T20:15:44.539Z",
-            "change_message": "Changed first_name and last_name. Added user profile \"UserProfile object\".",
-            "content_type": 4,
-            "object_id": "1",
-            "object_repr": "marymeakin",
-            "user": 1
-        },
-        "model": "admin.logentry",
         "pk": 1
     },
     {
         "fields": {
             "date_joined": "2014-03-11T19:50:16Z",
             "email": "",
-            "first_name": "Mary",
+            "first_name": "",
             "groups": [],
             "is_active": true,
             "is_staff": true,
             "is_superuser": true,
             "last_login": "2015-03-11T22:34:03.620Z",
-            "last_name": "Meakin",
+            "last_name": "Ministry of Justice",
             "password": "pbkdf2_sha256$15000$c6AQvuGwLwho$XLaKb/lRNAnHU9Uj4H4XMgDnHZF33Lq2ONFtKqdAIXA=",
             "user_permissions": [],
-            "username": "marymeakin"
+            "username": "moj"
         },
         "model": "auth.user",
         "pk": 1
     },
     {
         "fields": {
-            "description": "The Magistrates Court for Greater Manchester.",
-            "picture": "profile_pictures/manchester_magistrates_court.jpeg",
+            "description": "The Home Office",
+            "picture": "profile_pictures/ho.png",
             "user": 2
         },
         "model": "stream_twitter.userprofile",
@@ -328,18 +315,18 @@
             "is_staff": false,
             "is_superuser": false,
             "last_login": "2015-03-11T22:34:03.620Z",
-            "last_name": "Manchester Magistrates Court",
+            "last_name": "The Home Office",
             "password": "pbkdf2_sha256$15000$c6AQvuGwLwho$XLaKb/lRNAnHU9Uj4H4XMgDnHZF33Lq2ONFtKqdAIXA=",
             "user_permissions": [],
-            "username": "mcrmagistratescourt"
+            "username": "ho"
         },
         "model": "auth.user",
         "pk": 2
     },
     {
         "fields": {
-            "description": "HM Prison Manchester, aka Strangeways.",
-            "picture": "profile_pictures/Strangeways_Prison.jpg",
+            "description": "Her Majesty's Courts & Tribunals Service",
+            "picture": "profile_pictures/hmcts.png",
             "user": 3
         },
         "model": "stream_twitter.userprofile",
@@ -355,18 +342,18 @@
             "is_staff": false,
             "is_superuser": false,
             "last_login": "2015-03-11T22:34:03.620Z",
-            "last_name": "HM Prison Manchester",
+            "last_name": "HM Courts & Tribunals Service",
             "password": "pbkdf2_sha256$15000$c6AQvuGwLwho$XLaKb/lRNAnHU9Uj4H4XMgDnHZF33Lq2ONFtKqdAIXA=",
             "user_permissions": [],
-            "username": "strangeways"
+            "username": "hmcts"
         },
         "model": "auth.user",
         "pk": 3
     },
     {
         "fields": {
-            "description": "Greater Manchester Police.",
-            "picture": "profile_pictures/gmp_hq.jpg",
+            "description": "Legal Aid Agency",
+            "picture": "profile_pictures/laa.png",
             "user": 4
         },
         "model": "stream_twitter.userprofile",
@@ -382,18 +369,18 @@
             "is_staff": false,
             "is_superuser": false,
             "last_login": "2015-03-11T22:34:03.620Z",
-            "last_name": "Greater Manchester Police",
+            "last_name": "Legal Aid Agency",
             "password": "pbkdf2_sha256$15000$c6AQvuGwLwho$XLaKb/lRNAnHU9Uj4H4XMgDnHZF33Lq2ONFtKqdAIXA=",
             "user_permissions": [],
-            "username": "gmp"
+            "username": "laa"
         },
         "model": "auth.user",
         "pk": 4
     },
     {
         "fields": {
-            "description": "We are the Crown Court for Greater Manchester.",
-            "picture": "profile_pictures/mcr_crown_court.jpeg",
+            "description": "Crown Prosecution Service",
+            "picture": "profile_pictures/cps.gif",
             "user": 5
         },
         "model": "stream_twitter.userprofile",
@@ -409,71 +396,17 @@
             "is_staff": false,
             "is_superuser": false,
             "last_login": "2015-03-11T22:34:03.620Z",
-            "last_name": "Manchester Crown Court",
+            "last_name": "Crown Prosecution Service",
             "password": "pbkdf2_sha256$15000$c6AQvuGwLwho$XLaKb/lRNAnHU9Uj4H4XMgDnHZF33Lq2ONFtKqdAIXA=",
             "user_permissions": [],
-            "username": "mcrcrowncourt"
+            "username": "cps"
         },
         "model": "auth.user",
         "pk": 5
     },
     {
         "fields": {
-            "description": "Crown Prosecution Service for the North West.",
-            "picture": "profile_pictures/cps.png",
-            "user": 6
-        },
-        "model": "stream_twitter.userprofile",
-        "pk": 6
-    },
-    {
-        "fields": {
-            "date_joined": "2014-03-11T19:50:16Z",
-            "email": "",
-            "first_name": "",
-            "groups": [],
-            "is_active": true,
-            "is_staff": false,
-            "is_superuser": false,
-            "last_login": "2015-03-11T22:34:03.620Z",
-            "last_name": "North West CPS",
-            "password": "pbkdf2_sha256$15000$c6AQvuGwLwho$XLaKb/lRNAnHU9Uj4H4XMgDnHZF33Lq2ONFtKqdAIXA=",
-            "user_permissions": [],
-            "username": "nwcps"
-        },
-        "model": "auth.user",
-        "pk": 6
-    },
-    {
-        "fields": {
-            "description": "Hi, I am a serving Police Officer with GMP.",
-            "picture": "profile_pictures/john_smith.jpeg",
-            "user": 7
-        },
-        "model": "stream_twitter.userprofile",
-        "pk": 7
-    },
-    {
-        "fields": {
-            "date_joined": "2014-03-11T19:50:16Z",
-            "email": "",
-            "first_name": "John",
-            "groups": [],
-            "is_active": true,
-            "is_staff": true,
-            "is_superuser": true,
-            "last_login": "2015-03-11T22:34:03.620Z",
-            "last_name": "Smith",
-            "password": "pbkdf2_sha256$15000$c6AQvuGwLwho$XLaKb/lRNAnHU9Uj4H4XMgDnHZF33Lq2ONFtKqdAIXA=",
-            "user_permissions": [],
-            "username": "johnsmith"
-        },
-        "model": "auth.user",
-        "pk": 7
-    },
-    {
-        "fields": {
-            "name": "crimesagainstmusic",
+            "name": "arrest",
             "occurrences": 1
         },
         "model": "stream_twitter.hashtag",
@@ -482,7 +415,7 @@
     {
         "fields": {
             "created_at": "2015-03-11T21:46:45.304Z",
-            "text": "Peter Andre is in custody. #crimesagainstmusic.",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et molestie diam. Curabitur et elit leo. Aenean ultrices aliquet vulputate amet.  #arrest.",
             "user": 4
         },
         "model": "stream_twitter.tweet",
@@ -491,7 +424,7 @@
     {
         "fields": {
             "created_at": "2015-03-11T21:34:09.319Z",
-            "text": "Hello world, I've just transferred to @strangeways.",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et molestie diam. Curabitur et elit leo. Aenean ultrices aliquet vulputate amet.  @cps.",
             "user": 1
         },
         "model": "stream_twitter.tweet",
@@ -500,7 +433,7 @@
     {
         "fields": {
             "created_at": "2015-03-11T21:41:56.852Z",
-            "text": "Prisoner 1234-A, Katy Price has been found guilty and will be transferred to @strangeways",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et molestie diam. Curabitur et elit leo. Aenean ultrices aliquet vulputate amet. ",
             "user": 2
         },
         "model": "stream_twitter.tweet",
@@ -509,8 +442,8 @@
     {
         "fields": {
             "created_at": "2015-03-11T21:41:56.852Z",
-            "text": "@marymeakin Welcome to Manchester!",
-            "user": 7
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et molestie diam. Curabitur et elit leo. Aenean ultrices aliquet vulputate amet. ",
+            "user": 5
         },
         "model": "stream_twitter.tweet",
         "pk": 4
@@ -518,7 +451,7 @@
     {
         "fields": {
             "created_at": "2015-03-11T21:41:56.852Z",
-            "text": "Dinner time on Ward E.",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et molestie diam. Curabitur et elit leo. Aenean ultrices aliquet vulputate amet. ",
             "user": 3
         },
         "model": "stream_twitter.tweet",

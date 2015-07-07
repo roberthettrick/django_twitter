@@ -12,9 +12,10 @@
                  src="{{ user.userprofile.picture.url }}">
             {% endif %}
         </a>
+        <span class="user-basic-info-name">{{ user.first_name }} {{user.last_name}}</span>
     </div>
     <div class="user-basic-info">
-        <span class="user-basic-info-name">{{ user.first_name }} {{user.last_name}}</span>
+        <!--<span class="user-basic-info-name">{{ user.first_name }} {{user.last_name}}</span>-->
         <a href="/user/{{ user.username }}/"><span class="user-basic-info-id">@{{ user.username }}</span></a>
     </div>
     <div class="user-description">

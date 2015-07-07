@@ -610,7 +610,8 @@ select:focus,
       #footer .footer-meta .footer-meta-inner .open-government-licence {
         clear: left;
         position: relative;
-        padding-left: 53px; }
+        /*padding-left: 53px;*/
+        }
         @media (max-width: 640px) {
           #footer .footer-meta .footer-meta-inner .open-government-licence {
             padding-left: 0; } }

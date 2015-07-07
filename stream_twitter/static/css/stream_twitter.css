@@ -1,15 +1,17 @@
 div.user-picture {
     padding: 20px;
+    border-left-color: #231F20;
+    border-left: 3px solid;
 }
 
 div.activity {
-    background-color: #DEE0E2;
+    background-color: #FFFFFF;
     padding: 20px;
     margin: 20px;
 }
 
 div.user {
-    background-color: #DEE0E2;
+    background-color: #FFFFFF;
     margin-top: 20px;
 }
 
@@ -91,11 +93,12 @@ span.hashtag_name {
 
 img.tweet-profile {
     margin-top:10px;
-    min-width: 60px
+    /*min-width: 60px*/
 }
 
 img.profile-picture {
-    min-width: 80px;
+    /*min-width: 80px;*/
+    size: 50px;
 }
 
 #footer .footer-meta .footer-meta-inner .open-government-licence {
