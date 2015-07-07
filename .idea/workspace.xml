@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d4a29e91-7c40-4a6c-9477-f5465c50dc69" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pytutorial/fixtures/dj_data.json" afterPath="$PROJECT_DIR$/pytutorial/fixtures/dj_data.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stream_twitter/static/css/stream_twitter.css" afterPath="$PROJECT_DIR$/stream_twitter/static/css/stream_twitter.css" />
     </list>
     <ignored path="django_twitter.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -97,8 +96,8 @@
       <file leaf-file-name="dj_data.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pytutorial/fixtures/dj_data.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.65686274">
-              <caret line="485" column="5" selection-start-line="485" selection-start-column="5" selection-end-line="485" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.13478261">
+              <caret line="408" column="28" selection-start-line="408" selection-start-column="28" selection-end-line="408" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -531,7 +530,7 @@
     <frame x="65" y="-4" width="1238" height="696" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36842105" sideWeight="0.49711934" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4385965" sideWeight="0.49711934" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -938,8 +937,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pytutorial/fixtures/dj_data.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65686274">
-          <caret line="485" column="5" selection-start-line="485" selection-start-column="5" selection-end-line="485" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.13478261">
+          <caret line="408" column="28" selection-start-line="408" selection-start-column="28" selection-end-line="408" selection-end-column="28" />
           <folding />
         </state>
       </provider>

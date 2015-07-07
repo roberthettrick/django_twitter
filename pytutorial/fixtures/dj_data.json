@@ -406,7 +406,7 @@
     },
     {
         "fields": {
-            "name": "arrest",
+            "name": "hashtag",
             "occurrences": 1
         },
         "model": "stream_twitter.hashtag",
@@ -415,7 +415,7 @@
     {
         "fields": {
             "created_at": "2015-03-11T21:46:45.304Z",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et molestie diam. Curabitur et elit leo. Aenean ultrices aliquet vulputate amet.  #arrest.",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et molestie diam. Curabitur et elit leo. Aenean ultrices aliquet vulputate amet.  #hashtag.",
             "user": 4
         },
         "model": "stream_twitter.tweet",
@@ -451,11 +451,20 @@
     {
         "fields": {
             "created_at": "2015-03-11T21:41:56.852Z",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et molestie diam. Curabitur et elit leo. Aenean ultrices aliquet vulputate amet. #hashtag",
+            "user": 2
+        },
+        "model": "stream_twitter.tweet",
+        "pk": 5
+    },
+    {
+        "fields": {
+            "created_at": "2015-03-11T21:41:56.852Z",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et molestie diam. Curabitur et elit leo. Aenean ultrices aliquet vulputate amet. ",
             "user": 3
         },
         "model": "stream_twitter.tweet",
-        "pk": 5
+        "pk": 6
     },
     {
         "fields": {
