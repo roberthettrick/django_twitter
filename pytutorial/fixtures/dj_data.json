@@ -315,7 +315,7 @@
             "is_staff": false,
             "is_superuser": false,
             "last_login": "2015-03-11T22:34:03.620Z",
-            "last_name": "The Home Office",
+            "last_name": "Home Office",
             "password": "pbkdf2_sha256$15000$c6AQvuGwLwho$XLaKb/lRNAnHU9Uj4H4XMgDnHZF33Lq2ONFtKqdAIXA=",
             "user_permissions": [],
             "username": "ho"
