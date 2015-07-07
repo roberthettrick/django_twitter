@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4a29e91-7c40-4a6c-9477-f5465c50dc69" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stream_twitter/templates/stream_twitter/_footer.html" afterPath="$PROJECT_DIR$/stream_twitter/templates/stream_twitter/_footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stream_twitter/templates/stream_twitter/_user.html" afterPath="$PROJECT_DIR$/stream_twitter/templates/stream_twitter/_user.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pytutorial/fixtures/dj_data.json" afterPath="$PROJECT_DIR$/pytutorial/fixtures/dj_data.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stream_twitter/templates/stream_twitter/follow_form.html" afterPath="$PROJECT_DIR$/stream_twitter/templates/stream_twitter/follow_form.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stream_twitter/static/css/govuk-template.css" afterPath="$PROJECT_DIR$/stream_twitter/static/css/govuk-template.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stream_twitter/static/css/stream_twitter.css" afterPath="$PROJECT_DIR$/stream_twitter/static/css/stream_twitter.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="d4a29e91-7c40-4a6c-9477-f5465c50dc69" name="Default" comment="" />
     <ignored path="django_twitter.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
