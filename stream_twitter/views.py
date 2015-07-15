@@ -96,8 +96,15 @@ def discover(request):
 
 def user(request, user_name):
     user = get_object_or_404(User, username=user_name)
-    feeds = feed_manager.get_user_feed(user.id)
-    activities = feeds.get()['results']
+    print(user)
+    print(user.id)
+    if user.groups.filter(name='offender').exists():
+      feeds = feed_manager.get_news_feeds(user.id)
+      activities = feeds.get('flat').get()['results']
+    else:
+      user = get_object_or_404(User, username=user_name)
+      feeds = feed_manager.get_user_feed(user.id)
+      activities = feeds.get()['results']
     activities = enricher.enrich_activities(activities)
     context = {
         'activities': activities,

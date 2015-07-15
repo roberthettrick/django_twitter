@@ -3,9 +3,16 @@ from django.utils.html import format_html, escape
 from django.utils.timesince import timesince
 from datetime import *
 from django.utils.timezone import utc
-
+from django.contrib.auth.models import Group
 
 register = template.Library()
+
+
+@register.filter(name='has_group')
+def has_group(user, group_name):
+    group = Group.objects.get(name=group_name)
+    return True if group in user.groups.all() else False
+
 
 @register.filter(name='time_difference')
 def time_difference(value):
@@ -18,6 +25,7 @@ def time_difference(value):
     if difference <= timedelta(minutes=1):
         return 'Just now'
     return '%(time)s ago' % {'time': timesince(value).split(', ')[0]}
+
 
 @register.filter(name='parse_tweet_text')
 def parse_tweet_text(tweet_object, autoescape=False):
@@ -39,16 +47,16 @@ def encode_tweet(parsed_tweet_dict):
 
     # adding html component to hashtags
     for index, value in enumerate(parsed_tweet_dict.get(u'hashtags')):
-        result['hashtag'+str(index)] = \
-            u'<span class="hashtag"><a href="{link}">#{hashtag}</a></span>'\
-                .format(hashtag=escape(value), link="/hashtag/{0}"\
-                .format(escape(value)))
+        result['hashtag' + str(index)] = \
+            u'<span class="hashtag"><a href="{link}">#{hashtag}</a></span>' \
+                .format(hashtag=escape(value), link="/hashtag/{0}" \
+                        .format(escape(value)))
 
     # adding html component to mentions
     for index, value in enumerate(parsed_tweet_dict.get(u'mentions')):
-        result['mention'+str(index)] = \
-            u'<span class="mention"><a href="{link}">@{mention}</a></span>'\
-                .format(mention=escape(value), link="/user/{0}"\
-                .format(escape(value)))
+        result['mention' + str(index)] = \
+            u'<span class="mention"><a href="{link}">@{mention}</a></span>' \
+                .format(mention=escape(value), link="/user/{0}" \
+                        .format(escape(value)))
 
     return result

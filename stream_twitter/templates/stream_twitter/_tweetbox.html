@@ -1,3 +1,6 @@
+{% load filters %}
+
+{% if not login_user|has_group:'offender' %}
 <form action="" method="post" class="form-group">{% csrf_token %}
     <div class="row">
         <form action="/" method="post" class="form">
@@ -11,3 +14,4 @@
         </form>
     </div>
 </form>
+{% endif %}

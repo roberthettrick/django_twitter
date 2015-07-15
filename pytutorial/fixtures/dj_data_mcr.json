@@ -271,6 +271,14 @@
   },
   {
     "fields": {
+      "name": "offender",
+      "permissions": []
+    },
+    "model": "auth.group",
+    "pk": 1
+  },
+  {
+    "fields": {
       "description": "Greater Manchester Police",
       "picture": "profile_pictures/gmp_hq.jpg",
       "user": 1
@@ -418,8 +426,8 @@
       "date_joined": "2014-03-11T19:50:16Z",
       "email": "",
       "first_name": "John",
-      "groups": [],
-      "is_active": true,
+      "groups": [1],
+      "is_active": false,
       "is_staff": false,
       "is_superuser": false,
       "last_login": "2015-03-11T22:34:03.620Z",
@@ -445,8 +453,8 @@
       "date_joined": "2014-03-11T19:50:16Z",
       "email": "",
       "first_name": "David",
-      "groups": [],
-      "is_active": true,
+      "groups": [1],
+      "is_active": false,
       "is_staff": false,
       "is_superuser": false,
       "last_login": "2015-03-11T22:34:03.620Z",
@@ -472,8 +480,8 @@
       "date_joined": "2014-03-11T19:50:16Z",
       "email": "",
       "first_name": "Raymond",
-      "groups": [],
-      "is_active": true,
+      "groups": [1],
+      "is_active": false,
       "is_staff": false,
       "is_superuser": false,
       "last_login": "2015-03-11T22:34:03.620Z",
@@ -667,7 +675,7 @@
   {
     "fields": {
       "created_at": "2015-05-21T22:41:56.852Z",
-      "text": "@raymondlee detained for anti-social behavious. #riotsinmanchester",
+      "text": "@raymondlee detained for anti-social behaviour. #riotsinmanchester",
       "user": 1
     },
     "model": "stream_twitter.tweet",
@@ -676,7 +684,7 @@
   {
     "fields": {
       "created_at": "2015-05-21T22:41:56.852Z",
-      "text": "@davidyoung detained for anti-social behavious. #riotsinmanchester",
+      "text": "@davidyoung detained for anti-social behaviour. #riotsinmanchester",
       "user": 1
     },
     "model": "stream_twitter.tweet",
