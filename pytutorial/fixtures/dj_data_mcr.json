@@ -541,7 +541,7 @@
   },
   {
     "fields": {
-      "name": "hashtag",
+      "name": "riotsinmanchester",
       "occurrences": 1
     },
     "model": "stream_twitter.hashtag",
@@ -663,6 +663,24 @@
     },
     "model": "stream_twitter.tweet",
     "pk": 13
+  },
+  {
+    "fields": {
+      "created_at": "2015-05-21T22:41:56.852Z",
+      "text": "@raymondlee detained for anti-social behavious. #riotsinmanchester",
+      "user": 1
+    },
+    "model": "stream_twitter.tweet",
+    "pk": 14
+  },
+  {
+    "fields": {
+      "created_at": "2015-05-21T22:41:56.852Z",
+      "text": "@davidyoung detained for anti-social behavious. #riotsinmanchester",
+      "user": 1
+    },
+    "model": "stream_twitter.tweet",
+    "pk": 15
   },
   {
     "fields": {
