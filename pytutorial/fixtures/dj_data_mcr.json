@@ -336,13 +336,13 @@
     "fields": {
       "date_joined": "2014-03-11T19:50:16Z",
       "email": "",
-      "first_name": "",
+      "first_name": "Greater Manchester",
       "groups": [],
       "is_active": true,
       "is_staff": false,
       "is_superuser": false,
       "last_login": "2015-03-11T22:34:03.620Z",
-      "last_name": "Greater Manchester Magistrates Court",
+      "last_name": "Magistrates Court",
       "password": "pbkdf2_sha256$15000$c6AQvuGwLwho$XLaKb/lRNAnHU9Uj4H4XMgDnHZF33Lq2ONFtKqdAIXA=",
       "user_permissions": [],
       "username": "gmmc"

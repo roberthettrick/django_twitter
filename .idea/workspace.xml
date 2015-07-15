@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4a29e91-7c40-4a6c-9477-f5465c50dc69" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pytutorial/fixtures/dj_data_mcr.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pytutorial/management/commands/dj_deploy_mcr.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stream_twitter/templates/stream_twitter/_tweet.html" afterPath="$PROJECT_DIR$/stream_twitter/templates/stream_twitter/_tweet.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stream_twitter/templates/stream_twitter/_tweetbox.html" afterPath="$PROJECT_DIR$/stream_twitter/templates/stream_twitter/_tweetbox.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stream_twitter/models.py" afterPath="$PROJECT_DIR$/stream_twitter/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pytutorial/settings.py" afterPath="$PROJECT_DIR$/pytutorial/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stream_twitter/static/css/stream_twitter.css" afterPath="$PROJECT_DIR$/stream_twitter/static/css/stream_twitter.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pytutorial/fixtures/dj_data_mcr.json" afterPath="$PROJECT_DIR$/pytutorial/fixtures/dj_data_mcr.json" />
     </list>
     <ignored path="django_twitter.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,8 +46,8 @@
       <file leaf-file-name="dj_data_mcr.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pytutorial/fixtures/dj_data_mcr.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.84949833">
-              <caret line="664" column="12" selection-start-line="664" selection-start-column="12" selection-end-line="664" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.14715719">
+              <caret line="338" column="39" selection-start-line="338" selection-start-column="39" selection-end-line="338" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -574,9 +567,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1238" height="668" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31754386" sideWeight="0.49711934" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31754386" sideWeight="0.49711934" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -1001,8 +994,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pytutorial/fixtures/dj_data_mcr.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.84949833">
-          <caret line="664" column="12" selection-start-line="664" selection-start-column="12" selection-end-line="664" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.14715719">
+          <caret line="338" column="39" selection-start-line="338" selection-start-column="39" selection-end-line="338" selection-end-column="39" />
           <folding />
         </state>
       </provider>
