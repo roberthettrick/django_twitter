@@ -19,7 +19,8 @@
         </div>
         <div class="activity-text col-xs-10">
             <div class="user-name">
-                <a href="/user/{{ tweet.user.username }}">{{ tweet.user.username }}</a> <span class="time-tweeted">{{ tweet.created_at|time_difference }}</span>
+                <!--<a href="/user/{{ tweet.user.username }}">{{ tweet.user.username }}</a> <span class="time-tweeted">{{ tweet.created_at|time_difference }}</span>-->
+                <a href="/user/{{ tweet.user.username }}">{{ tweet.user.username }}</a> <span class="time-tweeted">{{ tweet.created_at }}</span>
             </div>
             {% autoescape off %}
             {{ tweet|parse_tweet_text }}

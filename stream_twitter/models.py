@@ -3,6 +3,7 @@ from django.db import models
 from django.db.models import F
 from django.db.models import signals
 from django.template.defaultfilters import slugify
+from django.utils import timezone
 from stream_django import activity
 from stream_django.feed_manager import feed_manager
 
@@ -10,7 +11,7 @@ from stream_django.feed_manager import feed_manager
 class Tweet(activity.Activity, models.Model):
     user = models.ForeignKey('auth.User')
     text = models.CharField(max_length=160)
-    created_at = models.DateTimeField(auto_now_add=True)
+    created_at = models.DateTimeField(default=timezone.now)
 
     @property
     def print_self(self):

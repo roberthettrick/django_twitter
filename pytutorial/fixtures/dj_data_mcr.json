@@ -1,0 +1,694 @@
+[
+  {
+    "fields": {
+      "codename": "add_logentry",
+      "content_type": 1,
+      "name": "Can add log entry"
+    },
+    "model": "auth.permission",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "codename": "change_logentry",
+      "content_type": 1,
+      "name": "Can change log entry"
+    },
+    "model": "auth.permission",
+    "pk": 2
+  },
+  {
+    "fields": {
+      "codename": "delete_logentry",
+      "content_type": 1,
+      "name": "Can delete log entry"
+    },
+    "model": "auth.permission",
+    "pk": 3
+  },
+  {
+    "fields": {
+      "codename": "add_permission",
+      "content_type": 2,
+      "name": "Can add permission"
+    },
+    "model": "auth.permission",
+    "pk": 4
+  },
+  {
+    "fields": {
+      "codename": "change_permission",
+      "content_type": 2,
+      "name": "Can change permission"
+    },
+    "model": "auth.permission",
+    "pk": 5
+  },
+  {
+    "fields": {
+      "codename": "delete_permission",
+      "content_type": 2,
+      "name": "Can delete permission"
+    },
+    "model": "auth.permission",
+    "pk": 6
+  },
+  {
+    "fields": {
+      "codename": "add_group",
+      "content_type": 3,
+      "name": "Can add group"
+    },
+    "model": "auth.permission",
+    "pk": 7
+  },
+  {
+    "fields": {
+      "codename": "change_group",
+      "content_type": 3,
+      "name": "Can change group"
+    },
+    "model": "auth.permission",
+    "pk": 8
+  },
+  {
+    "fields": {
+      "codename": "delete_group",
+      "content_type": 3,
+      "name": "Can delete group"
+    },
+    "model": "auth.permission",
+    "pk": 9
+  },
+  {
+    "fields": {
+      "codename": "add_user",
+      "content_type": 4,
+      "name": "Can add user"
+    },
+    "model": "auth.permission",
+    "pk": 10
+  },
+  {
+    "fields": {
+      "codename": "change_user",
+      "content_type": 4,
+      "name": "Can change user"
+    },
+    "model": "auth.permission",
+    "pk": 11
+  },
+  {
+    "fields": {
+      "codename": "delete_user",
+      "content_type": 4,
+      "name": "Can delete user"
+    },
+    "model": "auth.permission",
+    "pk": 12
+  },
+  {
+    "fields": {
+      "codename": "add_contenttype",
+      "content_type": 5,
+      "name": "Can add content type"
+    },
+    "model": "auth.permission",
+    "pk": 13
+  },
+  {
+    "fields": {
+      "codename": "change_contenttype",
+      "content_type": 5,
+      "name": "Can change content type"
+    },
+    "model": "auth.permission",
+    "pk": 14
+  },
+  {
+    "fields": {
+      "codename": "delete_contenttype",
+      "content_type": 5,
+      "name": "Can delete content type"
+    },
+    "model": "auth.permission",
+    "pk": 15
+  },
+  {
+    "fields": {
+      "codename": "add_session",
+      "content_type": 6,
+      "name": "Can add session"
+    },
+    "model": "auth.permission",
+    "pk": 16
+  },
+  {
+    "fields": {
+      "codename": "change_session",
+      "content_type": 6,
+      "name": "Can change session"
+    },
+    "model": "auth.permission",
+    "pk": 17
+  },
+  {
+    "fields": {
+      "codename": "delete_session",
+      "content_type": 6,
+      "name": "Can delete session"
+    },
+    "model": "auth.permission",
+    "pk": 18
+  },
+  {
+    "fields": {
+      "codename": "add_tweet",
+      "content_type": 7,
+      "name": "Can add tweet"
+    },
+    "model": "auth.permission",
+    "pk": 19
+  },
+  {
+    "fields": {
+      "codename": "change_tweet",
+      "content_type": 7,
+      "name": "Can change tweet"
+    },
+    "model": "auth.permission",
+    "pk": 20
+  },
+  {
+    "fields": {
+      "codename": "delete_tweet",
+      "content_type": 7,
+      "name": "Can delete tweet"
+    },
+    "model": "auth.permission",
+    "pk": 21
+  },
+  {
+    "fields": {
+      "codename": "add_follow",
+      "content_type": 8,
+      "name": "Can add follow"
+    },
+    "model": "auth.permission",
+    "pk": 22
+  },
+  {
+    "fields": {
+      "codename": "change_follow",
+      "content_type": 8,
+      "name": "Can change follow"
+    },
+    "model": "auth.permission",
+    "pk": 23
+  },
+  {
+    "fields": {
+      "codename": "delete_follow",
+      "content_type": 8,
+      "name": "Can delete follow"
+    },
+    "model": "auth.permission",
+    "pk": 24
+  },
+  {
+    "fields": {
+      "codename": "add_userprofile",
+      "content_type": 9,
+      "name": "Can add user profile"
+    },
+    "model": "auth.permission",
+    "pk": 25
+  },
+  {
+    "fields": {
+      "codename": "change_userprofile",
+      "content_type": 9,
+      "name": "Can change user profile"
+    },
+    "model": "auth.permission",
+    "pk": 26
+  },
+  {
+    "fields": {
+      "codename": "delete_userprofile",
+      "content_type": 9,
+      "name": "Can delete user profile"
+    },
+    "model": "auth.permission",
+    "pk": 27
+  },
+  {
+    "fields": {
+      "codename": "add_hashtag",
+      "content_type": 10,
+      "name": "Can add hashtag"
+    },
+    "model": "auth.permission",
+    "pk": 28
+  },
+  {
+    "fields": {
+      "codename": "change_hashtag",
+      "content_type": 10,
+      "name": "Can change hashtag"
+    },
+    "model": "auth.permission",
+    "pk": 29
+  },
+  {
+    "fields": {
+      "codename": "delete_hashtag",
+      "content_type": 10,
+      "name": "Can delete hashtag"
+    },
+    "model": "auth.permission",
+    "pk": 30
+  },
+  {
+    "fields": {
+      "description": "Greater Manchester Police",
+      "picture": "profile_pictures/gmp_hq.jpg",
+      "user": 1
+    },
+    "model": "stream_twitter.userprofile",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "date_joined": "2014-03-11T19:50:16Z",
+      "email": "",
+      "first_name": "",
+      "groups": [],
+      "is_active": true,
+      "is_staff": true,
+      "is_superuser": true,
+      "last_login": "2015-03-11T22:34:03.620Z",
+      "last_name": "Greater Manchester Police",
+      "password": "pbkdf2_sha256$15000$c6AQvuGwLwho$XLaKb/lRNAnHU9Uj4H4XMgDnHZF33Lq2ONFtKqdAIXA=",
+      "user_permissions": [],
+      "username": "gmp"
+    },
+    "model": "auth.user",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "description": "Greater Manchester Crown Court",
+      "picture": "profile_pictures/mcr_crown_court.jpeg",
+      "user": 2
+    },
+    "model": "stream_twitter.userprofile",
+    "pk": 2
+  },
+  {
+    "fields": {
+      "date_joined": "2014-03-11T19:50:16Z",
+      "email": "",
+      "first_name": "",
+      "groups": [],
+      "is_active": true,
+      "is_staff": false,
+      "is_superuser": false,
+      "last_login": "2015-03-11T22:34:03.620Z",
+      "last_name": "Greater Manchester Crown Court",
+      "password": "pbkdf2_sha256$15000$c6AQvuGwLwho$XLaKb/lRNAnHU9Uj4H4XMgDnHZF33Lq2ONFtKqdAIXA=",
+      "user_permissions": [],
+      "username": "gmcc"
+    },
+    "model": "auth.user",
+    "pk": 2
+  },
+  {
+    "fields": {
+      "description": "Greater Manchester Magistrates Court",
+      "picture": "profile_pictures/manchester_magistrates_court.jpeg",
+      "user": 3
+    },
+    "model": "stream_twitter.userprofile",
+    "pk": 3
+  },
+  {
+    "fields": {
+      "date_joined": "2014-03-11T19:50:16Z",
+      "email": "",
+      "first_name": "",
+      "groups": [],
+      "is_active": true,
+      "is_staff": false,
+      "is_superuser": false,
+      "last_login": "2015-03-11T22:34:03.620Z",
+      "last_name": "Greater Manchester Magistrates Court",
+      "password": "pbkdf2_sha256$15000$c6AQvuGwLwho$XLaKb/lRNAnHU9Uj4H4XMgDnHZF33Lq2ONFtKqdAIXA=",
+      "user_permissions": [],
+      "username": "gmmc"
+    },
+    "model": "auth.user",
+    "pk": 3
+  },
+  {
+    "fields": {
+      "description": "Her Majesty's Prison Manchester",
+      "picture": "profile_pictures/Strangeways_Prison.jpg",
+      "user": 4
+    },
+    "model": "stream_twitter.userprofile",
+    "pk": 4
+  },
+  {
+    "fields": {
+      "date_joined": "2014-03-11T19:50:16Z",
+      "email": "",
+      "first_name": "",
+      "groups": [],
+      "is_active": true,
+      "is_staff": false,
+      "is_superuser": false,
+      "last_login": "2015-03-11T22:34:03.620Z",
+      "last_name": "HM Prison Manchester",
+      "password": "pbkdf2_sha256$15000$c6AQvuGwLwho$XLaKb/lRNAnHU9Uj4H4XMgDnHZF33Lq2ONFtKqdAIXA=",
+      "user_permissions": [],
+      "username": "strangeways"
+    },
+    "model": "auth.user",
+    "pk": 4
+  },
+  {
+    "fields": {
+      "description": "North West Crown Prosecution Service",
+      "picture": "profile_pictures/cps.png",
+      "user": 5
+    },
+    "model": "stream_twitter.userprofile",
+    "pk": 5
+  },
+  {
+    "fields": {
+      "date_joined": "2014-03-11T19:50:16Z",
+      "email": "",
+      "first_name": "",
+      "groups": [],
+      "is_active": true,
+      "is_staff": false,
+      "is_superuser": false,
+      "last_login": "2015-03-11T22:34:03.620Z",
+      "last_name": "NW Crown Prosecution Service",
+      "password": "pbkdf2_sha256$15000$c6AQvuGwLwho$XLaKb/lRNAnHU9Uj4H4XMgDnHZF33Lq2ONFtKqdAIXA=",
+      "user_permissions": [],
+      "username": "nwcps"
+    },
+    "model": "auth.user",
+    "pk": 5
+  },
+  {
+    "fields": {
+      "description": "Offender",
+      "picture": "profile_pictures/rd.jpg",
+      "user": 6
+    },
+    "model": "stream_twitter.userprofile",
+    "pk": 6
+  },
+  {
+    "fields": {
+      "date_joined": "2014-03-11T19:50:16Z",
+      "email": "",
+      "first_name": "John",
+      "groups": [],
+      "is_active": true,
+      "is_staff": false,
+      "is_superuser": false,
+      "last_login": "2015-03-11T22:34:03.620Z",
+      "last_name": "Smith",
+      "password": "pbkdf2_sha256$15000$c6AQvuGwLwho$XLaKb/lRNAnHU9Uj4H4XMgDnHZF33Lq2ONFtKqdAIXA=",
+      "user_permissions": [],
+      "username": "johnsmith"
+    },
+    "model": "auth.user",
+    "pk": 6
+  },
+  {
+    "fields": {
+      "description": "Offender",
+      "picture": "profile_pictures/hg.jpg",
+      "user": 7
+    },
+    "model": "stream_twitter.userprofile",
+    "pk": 7
+  },
+  {
+    "fields": {
+      "date_joined": "2014-03-11T19:50:16Z",
+      "email": "",
+      "first_name": "David",
+      "groups": [],
+      "is_active": true,
+      "is_staff": false,
+      "is_superuser": false,
+      "last_login": "2015-03-11T22:34:03.620Z",
+      "last_name": "Young",
+      "password": "pbkdf2_sha256$15000$c6AQvuGwLwho$XLaKb/lRNAnHU9Uj4H4XMgDnHZF33Lq2ONFtKqdAIXA=",
+      "user_permissions": [],
+      "username": "davidyoung"
+    },
+    "model": "auth.user",
+    "pk": 7
+  },
+  {
+    "fields": {
+      "description": "Offender",
+      "picture": "profile_pictures/jb.jpg",
+      "user": 8
+    },
+    "model": "stream_twitter.userprofile",
+    "pk": 8
+  },
+  {
+    "fields": {
+      "date_joined": "2014-03-11T19:50:16Z",
+      "email": "",
+      "first_name": "Raymond",
+      "groups": [],
+      "is_active": true,
+      "is_staff": false,
+      "is_superuser": false,
+      "last_login": "2015-03-11T22:34:03.620Z",
+      "last_name": "Lee",
+      "password": "pbkdf2_sha256$15000$c6AQvuGwLwho$XLaKb/lRNAnHU9Uj4H4XMgDnHZF33Lq2ONFtKqdAIXA=",
+      "user_permissions": [],
+      "username": "raymondlee"
+    },
+    "model": "auth.user",
+    "pk": 8
+  },
+  {
+    "fields": {
+      "description": "GMP Police Officer",
+      "picture": "profile_pictures/wn.jpg",
+      "user": 9
+    },
+    "model": "stream_twitter.userprofile",
+    "pk": 9
+  },
+  {
+    "fields": {
+      "date_joined": "2014-03-11T19:50:16Z",
+      "email": "",
+      "first_name": "Wendy",
+      "groups": [],
+      "is_active": true,
+      "is_staff": false,
+      "is_superuser": false,
+      "last_login": "2015-03-11T22:34:03.620Z",
+      "last_name": "Norris",
+      "password": "pbkdf2_sha256$15000$c6AQvuGwLwho$XLaKb/lRNAnHU9Uj4H4XMgDnHZF33Lq2ONFtKqdAIXA=",
+      "user_permissions": [],
+      "username": "wendynorris"
+    },
+    "model": "auth.user",
+    "pk": 9
+  },
+  {
+    "fields": {
+      "description": "Probation Officer",
+      "picture": "profile_pictures/ss.jpg",
+      "user": 10
+    },
+    "model": "stream_twitter.userprofile",
+    "pk": 10
+  },
+  {
+    "fields": {
+      "date_joined": "2014-03-11T19:50:16Z",
+      "email": "",
+      "first_name": "Suzie",
+      "groups": [],
+      "is_active": true,
+      "is_staff": false,
+      "is_superuser": false,
+      "last_login": "2015-03-11T22:34:03.620Z",
+      "last_name": "Smith",
+      "password": "pbkdf2_sha256$15000$c6AQvuGwLwho$XLaKb/lRNAnHU9Uj4H4XMgDnHZF33Lq2ONFtKqdAIXA=",
+      "user_permissions": [],
+      "username": "suziesmith"
+    },
+    "model": "auth.user",
+    "pk": 10
+  },
+  {
+    "fields": {
+      "name": "hashtag",
+      "occurrences": 1
+    },
+    "model": "stream_twitter.hashtag",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "created_at": "2013-03-11T21:46:45.304Z",
+      "text": "Charged @johnsmith with attempted armed bank robbery on Peter Street, Manchester.",
+      "user": 1
+    },
+    "model": "stream_twitter.tweet",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "created_at": "2013-03-14T21:34:09.319Z",
+      "text": "Decision to prosecute @johnsmith for armed bank robbery.",
+      "user": 5
+    },
+    "model": "stream_twitter.tweet",
+    "pk": 2
+  },
+  {
+    "fields": {
+      "created_at": "2014-03-12T13:41:56.852Z",
+      "text": "Passed case 123-4567A for @johnsmith to @gmcc based on serious offence.",
+      "user": 3
+    },
+    "model": "stream_twitter.tweet",
+    "pk": 3
+  },
+  {
+    "fields": {
+      "created_at": "2014-03-13T11:41:56.852Z",
+      "text": "Trial date for case 123-456A @johnsmith set for 1 August 2014.",
+      "user": 2
+    },
+    "model": "stream_twitter.tweet",
+    "pk": 4
+  },
+  {
+    "fields": {
+      "created_at": "2014-08-02T15:41:56.852Z",
+      "text": "@johnsmith is found guilty of armed robbery and due to be detained @strangeways.",
+      "user": 2
+    },
+    "model": "stream_twitter.tweet",
+    "pk": 5
+  },
+  {
+    "fields": {
+      "created_at": "2014-08-03T08:41:56.852Z",
+      "text": "@johnsmith has been received and processed.",
+      "user": 4
+    },
+    "model": "stream_twitter.tweet",
+    "pk": 6
+  },
+  {
+    "fields": {
+      "created_at": "2015-03-11T21:41:56.852Z",
+      "text": "@johnsmith has been released early based on good behaviour.",
+      "user": 4
+    },
+    "model": "stream_twitter.tweet",
+    "pk": 7
+  },
+  {
+    "fields": {
+      "created_at": "2015-04-01T21:41:56.852Z",
+      "text": "@johnsmith has been arrested on drugs charges.",
+      "user": 1
+    },
+    "model": "stream_twitter.tweet",
+    "pk": 8
+  },
+  {
+    "fields": {
+      "created_at": "2015-04-01T23:41:56.852Z",
+      "text": "@johnsmith was released following a caution.",
+      "user": 1
+    },
+    "model": "stream_twitter.tweet",
+    "pk": 9
+  },
+  {
+    "fields": {
+      "created_at": "2015-01-12T23:41:56.852Z",
+      "text": "@raymondlee has been arrested and charged with being drunk and disorderly.",
+      "user": 1
+    },
+    "model": "stream_twitter.tweet",
+    "pk": 10
+  },
+  {
+    "fields": {
+      "created_at": "2015-01-13T11:41:56.852Z",
+      "text": "@raymondlee is being prosecuted for being drunk and disorderly.",
+      "user": 5
+    },
+    "model": "stream_twitter.tweet",
+    "pk": 11
+  },
+  {
+    "fields": {
+      "created_at": "2015-01-14T10:41:56.852Z",
+      "text": "Case 123-654A for @raymondlee is being held on 21 Jan 2015.",
+      "user": 3
+    },
+    "model": "stream_twitter.tweet",
+    "pk": 12
+  },
+  {
+    "fields": {
+      "created_at": "2015-01-21T15:41:56.852Z",
+      "text": "Case 123-654A for @raymondlee is found guilty and fined for being drunk and disorderly.",
+      "user": 3
+    },
+    "model": "stream_twitter.tweet",
+    "pk": 13
+  },
+  {
+    "fields": {
+      "created_at": "2015-03-11T21:41:56.852Z",
+      "target": 5,
+      "user": 1
+    },
+    "model": "stream_twitter.follow",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "created_at": "2015-03-11T21:41:56.852Z",
+      "target": 2,
+      "user": 1
+    },
+    "model": "stream_twitter.follow",
+    "pk": 2
+  },
+  {
+    "fields": {
+      "created_at": "2015-03-11T21:41:56.852Z",
+      "target": 4,
+      "user": 1
+    },
+    "model": "stream_twitter.follow",
+    "pk": 3
+  }
+]
